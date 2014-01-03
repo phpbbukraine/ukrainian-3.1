@@ -1,0 +1,42 @@
+Subject: Ласкаво просимо на конференцію «{SITENAME}»
+
+{WELCOME_MSG}
+
+Відповідно до COPPA ваш обліковий запис не активовано.
+
+Будь ласка, роздрукуйте це повідомлення і попросіть свого батька або опікуна підписати його і поставити дату. Потім відправте його по факсу:
+
+{FAX_INFO}
+
+Або поштою:
+
+{MAIL_INFO}
+
+------------------------------ CUT HERE ------------------------------
+Permission to participate at “{SITENAME}” — {U_BOARD}
+
+Username: {USERNAME}
+Email: {EMAIL_ADDRESS}
+
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO “{SITENAME}” TO STORE THIS INFORMATION.
+I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD.
+I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM “{SITENAME}” AT ANY TIME.
+
+
+Parent or guardian
+(print your name here): _____________________
+
+(sign here): __________________
+
+Date: _______________
+
+------------------------------ CUT HERE ------------------------------
+
+
+Як тільки адміністратор отримає цю форму факсом або поштою, ваш обліковий запис буде активовано.
+
+Ваш пароль надійно збережений у нашій базі даних і не може бути витягнутий з неї. Якщо ви все ж забудете свій пароль, то ви зможете відновити його, використовуючи для цього адресу електронної пошти, пов'язаний з вашим обліковим записом.
+
+Дякуємо за реєстрацію!
+
+{EMAIL_SIG}
