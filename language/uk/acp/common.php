@@ -666,7 +666,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Змінена користувацька роль</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Видалена користувацька роль</strong><br />» %s',
 	
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Не вдалося відкрити %1$s для tidying, перевірте права доступу.</strong><br />Виняток: %2$s<br />Trace: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Неможливо відкрити %1$s для очищення, перевірте права доступу.</strong><br />Виняток: %2$s<br />Додаткові відомості: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Активовано поле профілю</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Додано поле профілю</strong><br />» %s',
