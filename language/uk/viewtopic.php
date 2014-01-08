@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Код',
 
 	'DELETE_TOPIC'			=> 'Видалити тему',
-	'DELETED_INFORMATION'	=> 'Видалено %1$s в %2$s',
+	'DELETED_INFORMATION'	=> 'Видалено %1$s користувачем %2$s',
 	'DISAPPROVE'					=> 'Отклонить',
 	'DOWNLOAD_NOTICE'		=> 'У вас недостатньо прав для перегляду приєднаних до цього повідомлення.',
 
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Опитування закінчилося %s',
 	'POLL_RUN_TILL'			=> 'Опитування проводиться до %s',
 	'POLL_VOTED_OPTION'		=> 'Ви голосували за цей варіант',
-	
+	'POST_DELETED_RESTORE'  => 'Дане повідомлення видалено, але може бути відновлено.',
 	'PRINT_TOPIC'			=> 'Версія для друку',
 
 	'QUICK_MOD'				=> 'Швидкі дії',
