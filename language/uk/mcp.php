@@ -202,9 +202,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Теми',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Це список всіх тем, які потребують схвалення перед тим, як вони стануть видимі користувачам.',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'Видалити повідомлення',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Список видалених повідомлень. Ви можете відновити або видалити ці повідомлення назавжди.',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Це список усіх повідомлень, видалених в корзину. Ви можете відновити їх або видалити назавжди.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'Видалити теми',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Список віддалених тем. Ви можете відновити або видалити ці теми назавжди.',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Це список всіх тем, видалених в корзину. Ви можете відновити їх або видалити назавжди.',
 
 	'MCP_VIEW_USER'			=> 'Перегляд попереджень конкретного користувача',
 
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Тільки тема «%s»',
 	'OTHER_USERS'			=> 'Інші користувачі, які відправляли повідомлення з цього IP-адреси',
 	
-	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s не можна використовувати в якості quickmod',
+	'QUICKMOD_ACTION_NOT_ALLOWED' => 'Дія %s заборонена в режимі швидкої модерації',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Обрана скарга на приватне повідомлення успішно закрита.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Обрана скарга на приватне повідомлення успішно видалена.',
