@@ -433,7 +433,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Ваша тема «%1$s» відхилена з причини: «%2$s».',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Нова тема «%2$s» створена користувачем %1$s і вимагає схвалення.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення "%s" відсутній у файловій системі.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач “%1$s” недавно зареєстрований і вимагає активації.'
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач “%1$s” недавно зареєстрований і вимагає активації.',
 	'NOTIFY_ADMIN'				=> 'Повідомте про це адміністратора конференції або вебмастера.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Повідомте про це адміністратора конференції або вебмастера: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам заборонений доступ до цього файлу.',
