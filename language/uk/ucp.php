@@ -322,7 +322,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Тип сповіщення',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'У темі, вміщеній у закладки, з\'явилися нові повідомлення',
-	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Хтось хоче при\'єднатись до групи в якій ви є лідером',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Надійшов запит на вступ до групи, лідером якої Ви є',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Повідомлення або тема вимагають схвалення',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Ваші повідомлення/теми схвалені або відхилені модератором',
 	'NOTIFICATION_TYPE_PM'								=> 'Вам надіслано приватне повідомлення',
@@ -514,7 +514,7 @@ $lang = array_merge($lang, array(
 	
 	'UCP_NOTIFICATION_LIST'				=> 'Управління сповіщеннями',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Тут можна переглянути отримані повідомлення.',
-	'UCP_NOTIFICATION_OPTIONS'			=> 'Змінити налаштування повідомлень',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Змінити налаштування сповіщень',
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Тут ви можете встановити потрібні способи отримання повідомлень на конференції.',
 
 	'UCP_PREFS'					=> 'Особисті налаштування',
