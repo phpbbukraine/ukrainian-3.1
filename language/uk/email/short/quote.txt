@@ -1,4 +1,4 @@
-Subject: Сповіщення про відповідь — «{TOPIC_TITLE}»
+Subject: Вас процитували в темі — «{TOPIC_TITLE}»
 
 Вітаю, {USERNAME}!
 
