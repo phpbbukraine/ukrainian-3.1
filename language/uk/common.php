@@ -143,6 +143,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_QUOTE'			=> 'Цитата',
 	'BUTTON_TOPIC_LOCKED'	=> 'Закрито',
 	'BYTES'					=> 'байт',
+	'BYTES_SHORT'			=> 'B',
 
 	'CANCEL'				=> 'Відміна',
 	'CHANGE'				=> 'Редагувати',
@@ -420,6 +421,7 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_TOPIC'		=> 'Ви більше не підписані на цю тему.',
 	'NOTIFICATIONS'				=> 'Сповіщення',
 	'NOTIFICATION_BOOKMARK'				=> '%1$s відповів у темі «%2$s», що знаходиться у Вас в закладках.',
+	
 	'NOTIFICATION_GROUP_REQUEST'    => '%1$s подав запит на вступ до групи %2$s.',
     'NOTIFICATION_GROUP_REQUEST_APPROVED'  => 'Ваш запит на вступ до групи %1$s схвалений.',
 	'NOTIFICATION_PM'					=> '%1$s відправив Вам приватне повідомлення «%2$s».',
@@ -758,10 +760,7 @@ $lang = array_merge($lang, array(
 	'UNKNOWN_BROWSER'		=> 'Невідомий браузер',
 	'UNMARK_ALL'			=> 'Зняти виділення',
 	'UNREAD_MESSAGES'		=> 'Непрочитані повідомлення',
-	'UNREAD_PMS'			=> array(
-		1	=> 'Непрочитаних повідомлень: <strong>%d</strong>',
-		2	=> 'Непрочитаних повідомлень: <strong>%d</strong>',
-	),
+
 	'UNREAD_POST'			=> 'Непрочитане повідомлення',
 	'UNREAD_POSTS'			=> 'Непрочитані повідомлення',
 	'UNWATCH_FORUM_CONFIRM'		=> 'Ви дійсно хочете відписатися від даного форуму?',
@@ -956,7 +955,7 @@ $lang = array_merge($lang, array(
 		'Africa/Blantyre'	=> 'Африка/Блантайр',
 		'Africa/Brazzaville'	=> 'Африка/Браззавіль',
 		'Africa/Bujumbura'	=> 'Африка/Бужумбура',
-		'Africa/Cairo'		=> 'Африка/Каир',
+		'Africa/Cairo'		=> 'Африка/Каїр',
 		'Africa/Casablanca'	=> 'Африка/Касабланка',
 		'Africa/Ceuta'		=> 'Африка/Сеута',
 		'Africa/Conakry'	=> 'Африка/Конакри',
