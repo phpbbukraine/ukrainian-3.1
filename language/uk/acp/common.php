@@ -361,6 +361,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Стиснення GZip',
 
+	'NO_SEARCH_INDEX'       => 'Для обраного пошукового механізму «%1$s» відсутні пошукові індекси.<br >Створіть їх у розділі %2$sПошукові індекси%3$s.',
 	'NOT_AVAILABLE'		=> 'Недоступно',
 	'NUMBER_FILES'		=> 'Додаткових файлів',
 	'NUMBER_POSTS'		=> 'Повідомлень',
