@@ -140,6 +140,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'В мережі',
 	'USER_PRESENCE'			=> 'Присутність на конференції',
+	'USERS_PER_PAGE'		=> 'Users per page',
 
 	'VIEWING_PROFILE'		=> 'Профіль користувача %s',
 	'VISITED'				=> 'Останнє відвідування',
