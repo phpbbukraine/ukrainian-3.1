@@ -421,7 +421,7 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_TOPIC'		=> 'Ви більше не підписані на цю тему.',
 	'NOTIFICATIONS'				=> 'Сповіщення',
 	'NOTIFICATION_BOOKMARK'				=> '%1$s відповів у темі «%2$s», що знаходиться у Вас в закладках.',
-	
+	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s і %3$d інші відповіли на тему «%2$s» яка знаходиться у вас у закладках.',
 	'NOTIFICATION_GROUP_REQUEST'    => '%1$s подав запит на вступ до групи %2$s.',
     'NOTIFICATION_GROUP_REQUEST_APPROVED'  => 'Ваш запит на вступ до групи %1$s схвалений.',
 	'NOTIFICATION_PM'					=> '%1$s відправив Вам приватне повідомлення «%2$s».',
@@ -440,7 +440,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Ваша тема «%1$s» відхилена з причини: «%2$s».',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Нова тема «%2$s» створена користувачем %1$s і вимагає схвалення.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення "%s" відсутній у файловій системі.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач “%1$s” недавно зареєстрований і вимагає активації.',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач «%1$s» недавно зареєстрований і вимагає активації.',
 	'NOTIFY_ADMIN'				=> 'Повідомте про це адміністратора конференції або вебмастера.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Повідомте про це адміністратора конференції або вебмастера: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам заборонений доступ до цього файлу.',
