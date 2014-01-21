@@ -8,5 +8,4 @@ Subject: Тема відхилена — «{TOPIC_TITLE}»
 
 {REASON}
 
-
 {EMAIL_SIG}
