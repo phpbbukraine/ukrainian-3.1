@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Візуальне підтвердження',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Доповнення',
+	'ACP_CAT_CUSTOMISE'			=> 'Розширення',
 	'ACP_CAT_DATABASE'			=> 'База даних',
 	'ACP_CAT_DOT_MODS'			=> 'Модулі',
 	'ACP_CAT_FORUMS'			=> 'Форуми',
