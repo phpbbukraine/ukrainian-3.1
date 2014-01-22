@@ -49,8 +49,8 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_ENABLED'   => 'Вимкнути розширення',
 
 	'EXTENSION_DELETE_DATA'  => 'Видалити дані',
-    'EXTENSION_DISABLE'      => 'Вимкнено',
-    'EXTENSION_ENABLE'       => 'Увімкнено',
+    'EXTENSION_DISABLE'      => 'Вимкнути',
+    'EXTENSION_ENABLE'       => 'Увімкнути',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'  => 'Видалити дані і налаштування цього розширення. Файли цього розширення залишаються, тому це розширення можна відновити',
     'EXTENSION_DISABLE_EXPLAIN'      => 'Вимкнення розширення зберігає свої файли, дані і налаштування, але видаляє функціональність додану цим розширенням',
