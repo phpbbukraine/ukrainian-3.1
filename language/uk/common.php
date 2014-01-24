@@ -45,10 +45,16 @@ $lang = array_merge($lang, array(
 	'DATETIME_FORMAT'  => '|d M Y, H:i|',  // 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'uk',
 
-	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
-	// or ask the translation manager for help.
-	'PLURAL_RULE'		=> 1,
+        // You can define different rules for the determination of plural forms here.
+        // See http://wiki.phpbb.com/Plural_Rules for more information
+        // or ask the translation manager for help.
+        // Rule #7 Families: Slavic (Bosnian, Croatian, Serbian, Russian, Ukrainian)
+        // 0 can be handled special case. If you add a key 0 to your array, that will be used 
+        // in case of 0 independent of the plural rule.
+        // 1 - ends in 1, not 11: 1, 21, 31, ... 101, 121, ...
+        // 2 - ends in 2-4, not 12-14: 2, 3, 4, 22, 23, 24, 32, ...
+        // 3 - everything else: 0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, ...
+        'PLURAL_RULE'                => 7,
 	
 	'1_DAY'			=> '1 день',
 	'1_MONTH'		=> '1 місяц',
