@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'QUICK_TOOLS'			=> 'Швидкі дії',
 
 	'REGISTERED'			=> 'Зареєстрований',
-	'REGISTERED_IP'			=> 'Зареєстрований з IP-адреса',
+	'REGISTERED_IP'			=> 'Зареєстрований з IP-адреси',
 	'RETAIN_POSTS'			=> 'Залишити повідомлення',
 
 	'SELECT_FORM'			=> 'Вибрати форму',
