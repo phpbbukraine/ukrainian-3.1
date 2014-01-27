@@ -507,9 +507,9 @@ $lang = array_merge($lang, array(
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'	=> array(
 		0		=> 'Немає повідомлень в черзі',
-		1		=> '1 повідомлення в черзі',
+		1		=> '%d повідомлення в черзі',
 		2		=> '%d повідомлення в черзі',
-		3		=> '%d повідомлення в черзі',
+		3		=> '%d повідомлень в черзі',
 	),
 
 
