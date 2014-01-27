@@ -116,9 +116,9 @@ $lang = array_merge($lang, array(
 	'VIEW_PREVIOUS_TOPIC'	=> 'Поперед. тема',
 	'VIEW_RESULTS'			=> 'Результати голосування',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1  => '%d повідомлення',
-		2  => '%d повідомлення',
-		3  => '%d повідомлень',
+		1	=> '%d повідомлення',
+		2  	=> '%d повідомлення',
+		3  	=> '%d повідомлень',
 	),
 	'VIEW_UNREAD_POST'		=> 'Перше нове повідомлення',
 	'VISIT_WEBSITE'			=> 'WWW',
