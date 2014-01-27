@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 		1        => 'Всього <strong>%1$d</strong> користувач :: %2$s, %3$s і %4$s',
 		2        => 'Всього <strong>%1$d</strong> користувача :: %2$s, %3$s і %4$s',
 		3        => 'Всього <strong>%1$d</strong> користувачів :: %2$s, %3$s і %4$s',
-		)
+		),
 	'OPTIONS'					=> 'Налаштування',
 
 	'PAGE_OF'				=> 'Сторінка <strong>%1$d</strong> із <strong>%2$d</strong>',
