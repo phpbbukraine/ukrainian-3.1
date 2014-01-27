@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
         // 1 - ends in 1, not 11: 1, 21, 31, ... 101, 121, ...
         // 2 - ends in 2-4, not 12-14: 2, 3, 4, 22, 23, 24, 32, ...
         // 3 - everything else: 0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, ...
-        'PLURAL_RULE'                => 7,
+     'PLURAL_RULE'		=> 7,
 	
 	'1_DAY'			=> '1 день',
 	'1_MONTH'		=> '1 місяц',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, array(
 	'HIDE_GUESTS'					=> 'Прихованих гостей',
 	'HIDE_ME'						=> 'Приховати моє перебування на конференції цього разу',
 	'HOURS'							=> 'годин',
-	'HOME'							=> 'На гоговну',
+	'HOME'							=> 'На головну',
 
 	'ICQ'						=> 'ICQ',
 	'ICQ_STATUS'				=> 'Статус ICQ',
@@ -512,7 +512,6 @@ $lang = array_merge($lang, array(
 		3		=> '%d повідомлень в черзі',
 	),
 
-
 	'OCCUPATION'				=> 'Рід занять',
 	'OFFLINE'					=> 'Не в мережі',
 	'ONLINE'					=> 'В мережі',
@@ -574,7 +573,7 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'Повідомлення очікує схвалення:',
 	'POWERED_BY'			=> 'Створено на основі %s',
 	'PREVIEW'				=> 'Передпроглядання',
-	'PREVIOUS'				=> 'Пред.',		// Used in pagination
+	'PREVIOUS'				=> 'Попер.',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Назад',
 	'PRIVACY'				=> 'Угода про конфіденційність',
 	'PRIVATE_MESSAGE'		=> 'Приватне повідомлення',
