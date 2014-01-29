@@ -39,8 +39,8 @@ $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Адміністратори',
 	'ACP_ADMIN_LOGS'			=> 'Лог адміністраторів',
 	'ACP_ADMIN_ROLES'			=> 'Адміністраторські ролі',
-	'ACP_ATTACHMENTS'			=> 'Додаткові файли',
-	'ACP_ATTACHMENT_SETTINGS'	=> 'Налаштування додаткових файлів',
+	'ACP_ATTACHMENTS'			=> 'Вкладення',
+	'ACP_ATTACHMENT_SETTINGS'	=> 'Налаштування вкладень',
 	'ACP_AUTH_SETTINGS'			=> 'Аутентифікація',
 	'ACP_AUTOMATION'			=> 'Автоматизація',
 	'ACP_AVATAR_SETTINGS'		=> 'Аватари',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_NO_ITEMS'				=> 'Немає об\'єктів для відображення.',
 
-	'ACP_ORPHAN_ATTACHMENTS'	=> 'Загублені додаткові файли',
+	'ACP_ORPHAN_ATTACHMENTS'	=> 'Загублені вкладення',
 
 	'ACP_PERMISSIONS'			=> 'Права доступу',
 	'ACP_PERMISSION_MASKS'		=> 'Маски прав доступу',
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Форумні права користувачів',
 	'ACP_USERS_LOGS'				=> 'Лог користувачів',
 	'ACP_USERS_PERMISSIONS'			=> 'Права користувачів',
-	'ACP_USER_ATTACH'				=> 'Додаткові файли',
+	'ACP_USER_ATTACH'				=> 'Вкладення',
 	'ACP_USER_AVATAR'				=> 'Аватара',
 	'ACP_USER_FEEDBACK'				=> 'Нотатки про користувача',
 	'ACP_USER_GROUPS'				=> 'Групи',
@@ -241,8 +241,8 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Завантажити',
 	'EXPORT_STORE'			=> 'Зберегти',
 	
-	'FILES_GONE'			=> 'Деякі з обраних для видалення додаткових файлів не існують. Вони могли бути видалені раніше. Решта додаткових файлів успішно видалені.',
-	'FILES_STATS_WRONG'		=> 'Можливо, статистика додаткових файлів невірна і вимагає синхронізації. Правильні значення: кількість вкладень = %1$d, загальний розмір додаткових файлів = %2$s.',	
+	'FILES_GONE'			=> 'Деякі з обраних для видалення вкладень не існують. Вони могли бути видалені раніше. Решта вкладень успішно видалені.',
+	'FILES_STATS_WRONG'		=> 'Можливо, статистика вкладень невірна і вимагає синхронізації. Правильні значення: кількість вкладень = %1$d, загальний розмір вкладень = %2$s.',	
 
 	'GENERAL_OPTIONS'		=> 'Загальні параметри',
 	'GENERAL_SETTINGS'		=> 'Загальні налаштування',
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Сповіщення',
 	'NO_ADMIN'				=> 'У вас немає прав для доступу в панель адміністратора.',
 	'NO_EMAILS_DEFINED'		=> 'Не знайдено правильних адрес електронної пошти.',
-	'NO_FILES_TO_DELETE'	=> 'Обрані для видалення додаткових файлів не існує.',
+	'NO_FILES_TO_DELETE'	=> 'Обрані для видалення вкладень не існує.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Необхідно ввести пароль для отримання доступу в панель адміністратора.',
 
 	'OFF'					=> 'Відключено',
@@ -286,7 +286,7 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Нагадати',
 	'RESYNC'							=> 'Синхронізувати',
-	'RESYNC_FILES_STATS'				=> 'Синхронізувати статистику додаткових файлів',
+	'RESYNC_FILES_STATS'				=> 'Синхронізувати статистику вкладень',
 	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Перерахунок загальної кількості та розміру вкладень, прикріплених до повідомлень у темах і у приватних повідомленнями.',
 	'RETURN_TO'							=> 'Повернутися в…',
 
@@ -356,18 +356,18 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Кодування вихідного потоку HTTP налаштована невірно',
 	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Параметр <var>mbstring.http_output</var> має дорівнювати <samp>pass</samp>. Ви можете перевірити поточне значення на сторінці+ <samp>Відомості про PHP</samp>.',
 
-	'FILES_PER_DAY'		=> 'Додаткових файлів в день',
+	'FILES_PER_DAY'		=> 'Вкладеньв в день',
 	'FORUM_STATS'		=> 'Статистика конференції',
 
 	'GZIP_COMPRESSION'	=> 'Стиснення GZip',
 
 	'NO_SEARCH_INDEX'       => 'Для обраного пошукового механізму «%1$s» відсутні пошукові індекси.<br >Створіть їх у розділі %2$sПошукові індекси%3$s.',
 	'NOT_AVAILABLE'		=> 'Недоступно',
-	'NUMBER_FILES'		=> 'Додаткових файлів',
+	'NUMBER_FILES'		=> 'Вкладень',
 	'NUMBER_POSTS'		=> 'Повідомлень',
 	'NUMBER_TOPICS'		=> 'Тем',
 	'NUMBER_USERS'		=> 'Користувачів',
-	'NUMBER_ORPHAN'		=> 'Втрачених додаткових файлів',
+	'NUMBER_ORPHAN'		=> 'Втрачених вкладень',
 
  	'PHP_VERSION_OLD'	=> 'Версія PHP на цьому сервері застаріла і не буде підтримуватися майбутніми версіями phpBB. %sДетальніше%s',
 
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Скидання рекорду відвідуваності',
 	'RESET_ONLINE_CONFIRM'			=> 'Ви дійсно хочете скинути рекорд відвідуваності конференції?',
 	'RESET_ONLINE_SUCCESS'				=> 'Рекорд відвідуваності конференції успішно скинутий',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Ви дійсно хочете синхронізувати статистику додаткових файлів?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Ви дійсно хочете синхронізувати статистику вкладень?',
 	'RESYNC_POSTCOUNTS'				=> 'Синхронізувати лічильники повідомлень',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будуть враховані тільки існуючі повідомлення. Дистанційні повідомлення не будуть підраховані.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Ви дійсно хочете синхронізувати лічильники повідомлень?',
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'TIMEZONE_SELECTED'	=> '(поточний)',
 	'TOPICS_PER_DAY'	=> 'Тем в день',
 
-	'UPLOAD_DIR_SIZE'	=> 'Розмір усіх додаткових файлів',
+	'UPLOAD_DIR_SIZE'	=> 'Розмір усіх вкладень',
 	'USERS_PER_DAY'		=> 'Користувачів в день',
 
 	'VALUE'						=> 'Значення',
@@ -492,11 +492,11 @@ $lang = array_merge($lang, array(
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Невдала спроба входу в якості адміністратора</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Успішний вхід в якості адміністратора</strong>',
 
-	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Видалені додаткові файли користувача</strong><br />» %s',
+	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Видалені вкладення користувача</strong><br />» %s',
 
-	'LOG_ATTACH_EXT_ADD'		=> '<strong>Додано або змінено розширення додаткових файлів</strong><br />» %s',
-	'LOG_ATTACH_EXT_DEL'		=> '<strong>Видалено розширення додаткових файлів</strong><br />» %s',
-	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Оновлено розширення додаткових файлів</strong><br />» %s',
+	'LOG_ATTACH_EXT_ADD'		=> '<strong>Додано або змінено розширення вкладень</strong><br />» %s',
+	'LOG_ATTACH_EXT_DEL'		=> '<strong>Видалено розширення вкладень</strong><br />» %s',
+	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Оновлено розширення вкладень</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Додана група розширень</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Змінено групу розширень</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Видалена група розширень</strong><br />» %s',
@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 	'LOG_CLEAR_USER'		=> '<strong>Очищений лог користувача</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>Очищені логи користувачів</strong>',
 
-	'LOG_CONFIG_ATTACH'			=> '<strong>Змінені налаштування додаткових файлів</strong>',
+	'LOG_CONFIG_ATTACH'			=> '<strong>Змінені налаштування вкладень</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>Змінені налаштування аутентифікації</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Змінені налаштування аватар</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Змінені налаштування cookies</strong>',
@@ -695,7 +695,7 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Перевірка реферера не вдалася </strong><br />Рефер: “<em>%1$s</em>”. Запит був відхилений, сесія видалена.',
 	'LOG_RESET_DATE'			=> '<strong>Скинута дата запуску конференції</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Скинутий рекорд відвідуваності</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>Синхронізована статистика додаткових файлів</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Синхронізована статистика вкладень</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Синхронізовані лічильники повідомлень користувачів</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Синхронізовані свої теми</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Синхронізувала статистика повідомлень, тем і користувачів</strong>',
@@ -739,7 +739,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>Заблокований IP-адресу через розділ Управління користувачами</strong> по причині "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокований email-адресу через розділ Управління користувачами</strong> по причині "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Видалений користувач</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>Видалені всі додаткові файли користувача</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>Видалені всі вкладення користувача</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Видалена аватара користувача</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>Очищена папка «Вихідні» користувача</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Видалені всі повідомлення користувача</strong><br />» %s',

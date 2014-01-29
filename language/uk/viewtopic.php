@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Одобрити',
-	'ATTACHMENT'						=> 'Додаткові файли',
+	'APPROVE'							=> 'Схвалити',
+	'ATTACHMENT'						=> 'Вкладення',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Функція вкладень відключена.',
 
 	'BOOKMARK_ADDED'		=> 'Тема успішно додана в закладки.',
@@ -79,10 +79,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Можна вибрати до <strong>%d</strong> варіантів відповіді',
 		3	=> 'Можна вибрати до <strong>%d</strong> варіантів відповіді',
 	),
-	'MISSING_INLINE_ATTACHMENT'	=> 'Додатковий файл <strong>%s</strong> більше недоступно',
+	'MISSING_INLINE_ATTACHMENT'	=> 'Вкладення <strong>%s</strong> більше недоступно',
 	'MOVE_TOPIC'				=> 'Перемістити тему',
 
-	'NO_ATTACHMENT_SELECTED'=> 'Ви не обрали додатковий файл для скачування або перегляду.',
+	'NO_ATTACHMENT_SELECTED'=> 'Ви не обрали вкладення для завантаження або перегляду.',
 	'NO_NEWER_TOPICS'		=> 'У цьому форумі немає новіших тем.',
 	'NO_OLDER_TOPICS'		=> 'У цьому форумі немає старіших тем.',
 	'NO_UNREAD_POSTS'		=> 'У цій темі немає нових непрочитаних повідомлень.',
