@@ -515,7 +515,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_SUBSCRIBED'		=> 'Підписки',
 
 	'UCP_MSNM'					=> 'Windows Live Messenger',
-	'UCP_NO_ATTACHMENTS'		=> 'Ви не створили жодного додаткового файла.',
+	'UCP_NO_ATTACHMENTS'		=> 'Ви не створили жодного вкладення.',
 	
 	'UCP_NOTIFICATION_LIST'				=> 'Управління сповіщеннями',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Тут можна переглянути отримані повідомлення.',
