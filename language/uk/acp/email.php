@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'MAIL_HIGH_PRIORITY'	=> 'Високий',
 	'MAIL_LOW_PRIORITY'		=> 'Низький',
 	'MAIL_NORMAL_PRIORITY'	=> 'Звичайний',
-	'MAIL_PRIORITY'			=> 'Приоріет розсилки',
+	'MAIL_PRIORITY'			=> 'Приорітет розсилки',
 	'MASS_MESSAGE'			=> 'Текст повідомлення',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Можна використовувати тільки звичайний текст. Вся розмітка буде видалена перед відправленням.',
 

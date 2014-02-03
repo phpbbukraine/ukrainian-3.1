@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Тут визначається використання BBCode. Будь-яка вводиться змінна може бути замінена на відповідну лексему (%sприклади нижче%s).',
 
-	'EXAMPLE'						=> 'приклад:',
+	'EXAMPLE'						=> 'Приклад:',
 	'EXAMPLES'						=> 'Приклади:',
 
 	'HTML_REPLACEMENT'				=> 'Заміна HTML',
@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_ICONS'				=> 'Експортувати і завантажити файл icons.pak',
 	'EXPORT_ICONS_EXPLAIN'		=> '%sПісля клацання по цьому посиланню конфігурація встановлених значків буде упакована в файл <samp>icons.pak</samp>, який після завантаження можна використовувати для створення архівів <samp>.zip</samp> или <samp>.tgz</samp>, що містять всі ваші значки разом з конфігураційним файлом <samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'			=> 'Експортувати і завантажити файл smilies.pak',
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sПісля клацання по цьому посиланню конфігурація встановлених смайликів буде упакована в файл <samp>smilies.pak</samp>, який після завантаження можна використовувати для створення архівів <samp>.zip</samp> или <samp>.tgz</samp>, містять всі ваші смайли разом з конфігураційним файлом <samp>smilies.pak</samp>.',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sПісля натискання по цьому посиланню конфігурація встановлених смайликів буде упакована в файл <samp>smilies.pak</samp>, який після завантаження можна використовувати для створення архівів <samp>.zip</samp> или <samp>.tgz</samp>, містять всі ваші смайли разом з конфігураційним файлом <samp>smilies.pak</samp>.',
 
 	'FIRST'			=> 'Перший',
 
