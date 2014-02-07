@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
     'EXTENSION_ENABLE_IN_PROGRESS'  => 'Розширення в даний час увімкнене. Будь ласка, не залишайте і не оновлюйте цю сторінку, поки все не буде завершено.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'  => 'Дані розширення успішно видалені',
-    'EXTENSION_DISABLE_SUCCESS'      => 'Розширення успішно увімкнене',
-    'EXTENSION_ENABLE_SUCCESS'       => 'Розширення успішно вимкнене',
+    'EXTENSION_DISABLE_SUCCESS'      => 'Розширення успішно вимкнене',
+    'EXTENSION_ENABLE_SUCCESS'       => 'Розширення успішно увімкнене',
 
 	'EXTENSION_NAME'		=> 'Ім\'я розширення',
 	'EXTENSION_ACTIONS'		=> 'Дії',
