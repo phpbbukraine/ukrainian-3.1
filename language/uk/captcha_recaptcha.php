@@ -38,9 +38,9 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'ua',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Для використання reCaptcha необхідно створити обліковий запис на сайті <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Неправильна код візуального підтвердження',
+	'RECAPTCHA_INCORRECT'			=> 'Неправильний код візуального підтвердження',
 
-	'RECAPTCHA_PUBLIC'				=> 'публічний ключ reCaptcha [Public Key]',
+	'RECAPTCHA_PUBLIC'				=> 'Публічний ключ reCaptcha [Public Key]',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ваш публічний ключ reCaptcha. Ключі можна отримати на сайті <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Закритий ключ reCaptcha [Private Key]',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ваш закритий ключ reCaptcha. Ключі можна отримати на сайті <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
