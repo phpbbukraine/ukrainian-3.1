@@ -67,6 +67,19 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'		=> 'Ім\'я розширення',
 	'EXTENSION_ACTIONS'		=> 'Дії',
 	'EXTENSION_OPTIONS'		=> 'Налаштування',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Оновлення розширення',
+	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
+			<li>Вимкніть розширення</li>
+			<li>Видаліть файли розширення з сервера</li>
+			<li>Завантажте нові файли</li>
+			<li>Увімкніть розширення</li>
+		</ol>',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Повне видалення розширення.',
+	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
+			<li>Вимкніть розширення</li>
+			<li>Видаліть дані розширення</li>
+			<li>Видаліть файли розширення з сервера</li>
+		</ol>',
 
 	'EXTENSION_DELETE_DATA_CONFIRM'  => 'Ви впевнені, що хочете видалити дані, пов\'язані з «%%s»?<br /><br />Це видаляє всі його дані і налаштування і не може бути скасовано!',
     'EXTENSION_DISABLE_CONFIRM'      => 'Ви впевнені, що хочете вимкнути це «%s» розширення?',
