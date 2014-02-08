@@ -45,15 +45,15 @@ $lang = array_merge($lang, array(
 	'DATETIME_FORMAT'  => '|d M Y, H:i|',  // 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'uk',
 
-    // You can define different rules for the determination of plural forms here.
-    // See http://wiki.phpbb.com/Plural_Rules for more information
-    // or ask the translation manager for help.
-    // Rule #7 Families: Slavic (Bosnian, Croatian, Serbian, Russian, Ukrainian)
-    // 0 can be handled special case. If you add a key 0 to your array, that will be used 
-    // in case of 0 independent of the plural rule.
-    // 1 - ends in 1, not 11: 1, 21, 31, ... 101, 121, ...
-    // 2 - ends in 2-4, not 12-14: 2, 3, 4, 22, 23, 24, 32, ...
-    // 3 - everything else: 0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, ...
+        // You can define different rules for the determination of plural forms here.
+        // See http://wiki.phpbb.com/Plural_Rules for more information
+        // or ask the translation manager for help.
+        // Rule #7 Families: Slavic (Bosnian, Croatian, Serbian, Russian, Ukrainian)
+        // 0 can be handled special case. If you add a key 0 to your array, that will be used 
+        // in case of 0 independent of the plural rule.
+        // 1 - ends in 1, not 11: 1, 21, 31, ... 101, 121, ...
+        // 2 - ends in 2-4, not 12-14: 2, 3, 4, 22, 23, 24, 32, ...
+        // 3 - everything else: 0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, ...
     'PLURAL_RULE'		=> 7,
 	
 	'1_DAY'			=> '1 день',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'AJAX_ERROR_TEXT'        		=> 'При обробці запиту сталася помилка.',
 	'AJAX_ERROR_TEXT_ABORT'			=> 'Запит користувача перерваний',
 	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Ваш запит минув, будь ласка, спробуйте ще раз.',
-	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Щось пішло не так із запитом і сервер повернув помилкову відповідь.',
+	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Щось пішло не так з запитом і сервер повернув помилковий відповідь.',
 	'ALLOWED'						=> 'Дозволено',
 	'ALL_FILES'						=> 'Всі файли',
 	'ALL_FORUMS'					=> 'Всі форуми',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'Завантажений файл аватари порожній.',
 	'AVATAR_INVALID_FILENAME'		=> '%s є недопустимим ім\'ям файлу.',
 	'AVATAR_NOT_UPLOADED'			=> 'Завантаження аватари не вдалося.',
-	'AVATAR_NO_SIZE'				=> 'Не вдалося визначити розміри вказаної аватари. Будь ласка, введіть їх вручну.',
+	'AVATAR_NO_SIZE'				=> 'Не вдалося визначити розміри вказаної аватари. Будь-ласка, введіть їх вручну.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Зазначений файл завантажений лише частково',
 	'AVATAR_PHP_SIZE_NA'			=> 'Завеликий розмір файлу аватари.<br />Не вдалося встановити максимальний розмір, встановлений в php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Завеликий розмір файлу аватари. Максимально допустимий розмір — %1$d %2$s.<br />Примітка: це обмеження встановлене в файле php.ini і не може бути перевищено.',
@@ -121,16 +121,16 @@ $lang = array_merge($lang, array(
 	'BACK_TO_TOP'			=> 'Повернутися до початку',
 	'BACK_TO_PREV'			=> 'Повернутися на попередню сторінку',
 	'BAN_TRIGGERED_BY_EMAIL'=> 'Доступ до конференції закритий для вашої email адреси .',
-	'BAN_TRIGGERED_BY_IP'	=> 'Доступ до конференції закритий для вашої IP-адреси.',
+	'BAN_TRIGGERED_BY_IP'	=> 'Доступ до конференції закритий для вашого IP-адреса.',
 	'BAN_TRIGGERED_BY_USER'	=> 'Доступ до конференції закритий для вашого облікового запису.',
-	'BBCODE_GUIDE'			=> 'Посібник з BBCode',
+	'BBCODE_GUIDE'			=> 'Посібник по BBCode',
 	'BCC'					=> 'Прихована копія',
 	'BIRTHDAYS'				=> 'Дні народження',
 	'BOARD_BAN_PERM'		=> 'Вам закритий доступ до конференції.<br /><br />Для отримання додаткової інформації %2$sзв\'яжіться з адміністратором конференції%3$s.',
 	'BOARD_BAN_REASON'		=> 'Причина: <strong>%s</strong>',
 	'BOARD_BAN_TIME'		=> 'Вам закритий доступ до конференції до <strong>%1$s</strong>.<br /><br />Для отримання додаткової інформації %2$sзв\'яжіться з адміністратором конференції%3$s.',
 	'BOARD_DISABLE'			=> 'Вибачте, але конференція в даний момент недоступна',
-	'BOARD_DISABLED'		=> 'Конференція на даний момент відключена.',
+	'BOARD_DISABLED'		=> 'Конференція в даний момент відключена.',
 	'BOARD_UNAVAILABLE'		=> 'Конференція тимчасово недоступна. Спробуйте зайти через кілька хвилин.',
 	'BROWSING_FORUM'		=> 'Зараз цей форум переглядають: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
@@ -202,13 +202,13 @@ $lang = array_merge($lang, array(
 		0	=> '0 завантажень',
 		1	=> '%d завантаження',
 		2	=> '%d завантаження',
-		3	=> '%d завантажень',
+		3	=> '%d завантаження',
 	),
 
 	'EDIT_POST'							=> 'Редагувати повідомлення',
 	'ELLIPSIS'              			=> '…',
 	'EMAIL'								=> 'Email', // Short form for EMAIL_ADDRESS
-	'EMAIL_ADDRESS'						=> 'Адреса email',
+	'EMAIL_ADDRESS'						=> 'Адрес email',
 	'EMAIL_INVALID_EMAIL'				=> 'Адреса email введена неправильно.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Помилка при відправці email в <strong>рядку %1$s</strong>. Відповідь сервера: %2$s.',
 	'EMPTY_SUBJECT'						=> 'При створенні нової теми необхідно вказати заголовок.',
@@ -267,7 +267,7 @@ $lang = array_merge($lang, array(
 	'FTP_FSOCK_PASSWORD_EXPLAIN'	=> 'Пароль для входу на FTP-сервер.',
 	'FTP_FSOCK_PORT'				=> 'Порт FTP',
 	'FTP_FSOCK_PORT_EXPLAIN'		=> 'Порт для з\'єднання з FTP-сервером.',
-	'FTP_FSOCK_ROOT_PATH'			=> 'Шлях до phpBB',
+	'FTP_FSOCK_ROOT_PATH'			=> 'Шлях к phpBB',
 	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'Шлях до папки, яка містить phpBB, відносно кореня сайту.',
 	'FTP_FSOCK_TIMEOUT'				=> 'Тайм-аут FTP',
 	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде чекати відповіді від FTP-сервера.',
@@ -280,7 +280,7 @@ $lang = array_merge($lang, array(
 	'FTP_PASSWORD_EXPLAIN'		=> 'Пароль для входу на FTP-сервер.',
 	'FTP_PORT'					=> 'Порт FTP',
 	'FTP_PORT_EXPLAIN'			=> 'Порт для з\'єднання с FTP-сервером.',
-	'FTP_ROOT_PATH'				=> 'Шях до phpBB',
+	'FTP_ROOT_PATH'				=> 'Шях к phpBB',
 	'FTP_ROOT_PATH_EXPLAIN'		=> 'Шлях до папки, яка містить phpBB, відносно кореня сайту.',
 	'FTP_TIMEOUT'				=> 'Тайм-аут FTP',
 	'FTP_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде чекати відповіді від FTP-сервера.',
@@ -409,7 +409,7 @@ $lang = array_merge($lang, array(
 	'MEMBERLIST'			=> 'Користувачі',
 	'MEMBERLIST_EXPLAIN'	=> 'Перегляд всього списку користувачів',
 	'MERGE'					=> 'Об\'єднати',
-	'MERGE_POSTS'			=> 'Перенести повідомлення',
+	'MERGE_POSTS'			=> 'Перенести повдомлення',
 	'MERGE_TOPIC'			=> 'Об\'єднати тему',
 	'MESSAGE'				=> 'Повідомлення',
 	'MESSAGES'				=> 'Повідомлення',
@@ -453,8 +453,8 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REPORT_PM'			=> '%1$s поскаржився на приватне повідомлення «%2$s» з причини: «%3$s».',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s поскаржився на повідомлення «%2$s» з причини: «%3$s».',
 	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s закрив Вашу скаргу на «%2$s».',
-	'NOTIFICATION_TOPIC'				=> '%1$s створив нову тему «%2$s» у форумі «%3$s».',
-	'NOTIFICATION_TOPIC_APPROVED'		=> 'Ваша тема «%2$s» у форумі «%3$s» схвалена.',
+	'NOTIFICATION_TOPIC'				=> '%1$s створив нову тему «%2$s» в форумі «%3$s».',
+	'NOTIFICATION_TOPIC_APPROVED'		=> 'Ваша тема «%2$s» в форумі «%3$s» схвалена.',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Ваша тема «%1$s» відхилена з причини: «%2$s».',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Нова тема «%2$s» створена користувачем %1$s і вимагає схвалення.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення «%s» відсутній у файловій системі.',
@@ -464,7 +464,7 @@ $lang = array_merge($lang, array(
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам заборонений доступ до цього файлу.',
 	'NO_ACTION'					=> 'Дію не визначено.',
 	'NO_ADMINISTRATORS'			=> 'Адміністратори відсутні.',
-	'NO_AUTH_ADMIN'				=> 'Ви не маєте прав доступу до панелі адміністратора.',
+	'NO_AUTH_ADMIN'				=> 'Ви не маєте прав доступу до адміністраторська розділу.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Ви не можете повторно авторизуватись як інший користувач.',
 	'NO_AUTH_OPERATION'			=> 'Ви не маєте необхідних прав доступу для завершення цієї операції.',
 	'NO_AVATARS'				=> 'Немає доступних аватар',
@@ -478,7 +478,7 @@ $lang = array_merge($lang, array(
 	'NO_FORUMS'					=> 'На цьому сайті немає форумів.',
 	'NO_GROUP'					=> 'Запитаної групи не існує.',
 	'NO_GROUP_MEMBERS'			=> 'В даний час у цій групі немає жодного користувача.',
-	'NO_IPS_DEFINED'			=> 'Не визначено IP-адресу або ім\'я хоста',
+	'NO_IPS_DEFINED'			=> 'Не визначений IP-адресу або ім\'я хоста',
 	'NO_MEMBERS'				=> 'Не знайдено жодного користувача за заданими критеріями',
 	'NO_MESSAGES'				=> 'Немає повідомлень',
 	'NO_MODE'					=> 'Не вказаний режим.',
@@ -499,7 +499,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPICS'					=> 'У цьому форумі немає повідомлень.',
 	'NO_TOPICS_TIME_FRAME'		=> 'У форумі немає тем за обраний період часу.',
 	'NO_UNREAD_POSTS'			=> 'Немає непрочитаних повідомлень',
-	'NO_UPLOAD_FORM_FOUND'		=> 'Завантажування файлу ініційовано, але доступний для завантаження файл не знайдений.',
+	'NO_UPLOAD_FORM_FOUND'		=> 'Закачування файлу ініційовано, але доступний для закачування файл не знайдено.',
 	'NO_USER'					=> 'Запитуваного користувача не існує.',
 	'NO_USERS'					=> 'Запитуваного користувача не існує.',
 	'NO_USER_SPECIFIED'			=> 'Ім\'я користувача не визначено.',
@@ -605,7 +605,7 @@ $lang = array_merge($lang, array(
 		3	=> '%d зареєстрованих',
 	),
 	'REMOVE'					=> 'Видалити',
-	'REMOVE_INSTALL'			=> 'Будь ласка, видаліть, перемістіть або перейменуйте папку install, перш ніж почнете користуватися конференцією. В іншому випадку буде доступна тільки Панель адміністратора.',
+	'REMOVE_INSTALL'			=> 'Будь ласка, видаліть, перемістіть або перейменуйте папку install, перш ніж почнете користуватися конференцією. В іншому випадку буде доступне тільки Панель адміністратора.',
 	'REPLIES'					=> 'Відповіді',
 	'REPLY_WITH_QUOTE'			=> 'Відповісти цитуючи',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Розміщення відповіді на важливе оголошення',
@@ -681,7 +681,7 @@ $lang = array_merge($lang, array(
 	'SORT_TOPIC_TITLE'			=> 'Назва теми',
 	'SORT_USERNAME'				=> 'Ім\'я користувача',
 	'SPLIT_TOPIC'				=> 'Розділити тему',
-	'SQL_ERROR_OCCURRED'		=> 'Сталася помилка SQL при вибірці на цій сторінці. Будь ласка, повідомте %sадміністратора конференції%s, якщо помилка буде повторюватися.',
+	'SQL_ERROR_OCCURRED'		=> 'Сталася помилка SQL при вибірці на цій сторінці. Будь ласка, повідомте %sадміністратора%s, якщо помилка буде повторюватися.',
 	'STATISTICS'				=> 'Статистика',
 	'START_WATCHING_FORUM'		=> 'Підписатись на форум',
 	'START_WATCHING_TOPIC'		=> 'Підписатись на тему',
@@ -707,21 +707,18 @@ $lang = array_merge($lang, array(
 	'TOO_LONG'			=> 'Введене значення занадто довге.',
 
 	'TOO_LONG_AIM'					=> 'Ім\'я в AIM занадто велике.',
-	'TOO_LONG_CONFIRM_CODE'			=> 'Введений код підтвердження занадто великий.',
-	'TOO_LONG_DATEFORMAT'			=> 'Введений формат дати занадто великий.',
+	'TOO_LONG_CONFIRM_CODE'			=> 'Введений код підтвердження занадто довгий.',
+	'TOO_LONG_DATEFORMAT'			=> 'Введений формат дати занадто довгий.',
 	'TOO_LONG_ICQ'					=> 'Номер ICQ занадто великий.',
-	'TOO_LONG_INTERESTS'			=> 'Занадто великий рядок інтересів.',
 	'TOO_LONG_JABBER'				=> 'Ім\'я облікового запису Jabber занадто довге.',
-	'TOO_LONG_LOCATION'				=> 'Рядок «Звідки» занадто великий5.',
 	'TOO_LONG_MSN'					=> 'Ім\'я в MSN занадто велике.',
-	'TOO_LONG_NEW_PASSWORD'			=> 'Введений пароль занадто великий.',
-	'TOO_LONG_OCCUPATION'			=> 'Рядок «Рід занять» занадто великий.',
-	'TOO_LONG_PASSWORD_CONFIRM'		=> 'Підтвердження пароля занадто велике.',
-	'TOO_LONG_USER_PASSWORD'		=> 'Пароль занадто великий.',
-	'TOO_LONG_USERNAME'				=> 'Ім\'я користувача занадто велике.',
-	'TOO_LONG_EMAIL'				=> 'Адреса email занадто велика.',
-	'TOO_LONG_WEBSITE'				=> 'Адреса сайту занадто велика.',
-	'TOO_LONG_YIM'					=> 'Ім\'я в YIM занадто велика.',
+	'TOO_LONG_NEW_PASSWORD'			=> 'Введений пароль занадто довгий.',
+	'TOO_LONG_PASSWORD_CONFIRM'		=> 'Підтвердження пароля занадто довге.',
+	'TOO_LONG_USER_PASSWORD'		=> 'Пароль занадто довгий.',
+	'TOO_LONG_USERNAME'				=> 'Ім\'я користувача занадто довге.',
+	'TOO_LONG_EMAIL'				=> 'Адреса email занадто довге.',
+	'TOO_LONG_WEBSITE'				=> 'Адреса сайту занадто довге.',
+	'TOO_LONG_YIM'					=> 'Ім\'я в YIM занадто довге.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Ви вибрали занадто багато варіантів відповіді при голосуванні.',
 
@@ -730,21 +727,18 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_AIM'					=> 'Ім\'я в AIM занадто коротке.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Введений код підтвердження занадто короткий.',
 	'TOO_SHORT_DATEFORMAT'			=> 'Введений формат дати занадто короткий.',
-	'TOO_SHORT_ICQ'					=> 'Номер ICQ занадто короткий.',
-	'TOO_SHORT_INTERESTS'			=> 'Занадто короткий рядок інтересів.',
-	'TOO_SHORT_JABBER'				=> 'Ім\'я облікового запису Jabber занадто коротке.',
-	'TOO_SHORT_LOCATION'			=> 'Рядок «Звідки» занадто коротка.',
+	'TOO_SHORT_ICQ'					=> 'Номер ICQ занадто короткий..',
+	'TOO_SHORT_JABBER'				=> 'Ім\'я облікового запису Jabber занадто коротке..',
 	'TOO_SHORT_MSN'					=> 'Ім\'я в WLM занадто коротке.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'Введень пароль занадто короткий.',
-	'TOO_SHORT_OCCUPATION'			=> 'Рядок «Рід занять» занадто короткий.',
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Підтвердження пароля занадто короткий.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'Пароль занадто короткий.',
-	'TOO_SHORT_USERNAME'			=> 'Ім\'я користувача є коротким.',
+	'TOO_SHORT_USERNAME'			=> 'Ім\'я користувача є коротке.',
 	'TOO_SHORT_EMAIL'				=> 'Адреса email занадто коротка.',
 	'TOO_SHORT_WEBSITE'				=> 'Адреса сайту занадто коротка.',
 	'TOO_SHORT_YIM'					=> 'Ім\'я в YIM занадто коротке.',
 
-	'TOO_SMALL'						=> 'Введене значення занадто мале.',
+	'TOO_SMALL'						=> 'Введённое значение слишком мале.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Введене значення налаштування <strong>Максимальний дозволене число одержувачів ПП</strong> занадто мало.',
 
 	'TOPIC'				=> 'Тема',
@@ -871,7 +865,7 @@ $lang = array_merge($lang, array(
 	'WROTE'						=> 'писав(ла)',
 
 	'YEAR'				=> 'Рік',
-	'YEAR_MONTH_DAY'	=> '(РРРР-ММ-ДД)',
+	'YEAR_MONTH_DAY'	=> '(ГГГГ-ММ-ДД)',
 	'YES'				=> 'Так',
 	'YIM'				=> 'YIM',
 	'YOU_LAST_VISIT'	=> 'Ваш останній візит: %s',

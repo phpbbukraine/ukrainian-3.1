@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Адміністратори',
 	'ACP_ADMIN_LOGS'			=> 'Лог адміністраторів',
-	'ACP_ADMIN_ROLES'			=> 'Ролі адміністраторів',
+	'ACP_ADMIN_ROLES'			=> 'Адміністраторські ролі',
 	'ACP_ATTACHMENTS'			=> 'Вкладення',
 	'ACP_ATTACHMENT_SETTINGS'	=> 'Налаштування вкладень',
 	'ACP_AUTH_SETTINGS'			=> 'Аутентифікація',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS'		=> 'Приватні повідомлення',
 	'ACP_MODULE_MANAGEMENT'		=> 'Управління модулями',
 	'ACP_MOD_LOGS'				=> 'Лог модераторів',
-	'ACP_MOD_ROLES'				=> 'Ролі модераторів',
+	'ACP_MOD_ROLES'				=> 'Модераторські ролі',
 
 	'ACP_NO_ITEMS'				=> 'Немає об\'єктів для відображення.',
 
@@ -193,7 +193,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_PREFS'				=> 'Особисті налаштування',
 	'ACP_USER_PROFILE'				=> 'Профіль',
 	'ACP_USER_RANK'					=> 'Звання',
-	'ACP_USER_ROLES'				=> 'Ролі користувачів',
+	'ACP_USER_ROLES'				=> 'Користувальницькі ролі',
 	'ACP_USER_SECURITY'				=> 'Безпека',
 	'ACP_USER_SIG'					=> 'Підпис',
 	'ACP_USER_WARNINGS'				=> 'Попередження',
@@ -385,15 +385,15 @@ $lang = array_merge($lang, array(
 
 	'RESET_DATE'					=> 'Скидання дати запуску конференції',
 	'RESET_DATE_CONFIRM'			=> 'Ви дійсно хочете скинути дату запуску конференції?',
-	'RESET_DATE_SUCCESS'			=> 'Дата запуску конференції успішно скинута',
+	'RESET_DATE_SUCCESS'				=> 'Дата запуску конференції успішно скинута',
 	'RESET_ONLINE'					=> 'Скидання рекорду відвідуваності',
 	'RESET_ONLINE_CONFIRM'			=> 'Ви дійсно хочете скинути рекорд відвідуваності конференції?',
-	'RESET_ONLINE_SUCCESS'			=> 'Рекорд відвідуваності конференції успішно скинутий',
+	'RESET_ONLINE_SUCCESS'				=> 'Рекорд відвідуваності конференції успішно скинутий',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Ви дійсно хочете синхронізувати статистику вкладень?',
 	'RESYNC_POSTCOUNTS'				=> 'Синхронізувати лічильники повідомлень',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будуть враховані тільки існуючі повідомлення. Видалені повідомлення не будуть підраховані.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Ви дійсно хочете синхронізувати лічильники повідомлень?',
-	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Лічильники повідомлень успішно синхронізовані',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Лічильники повідомлень успішно синхронізовані',
 	'RESYNC_POST_MARKING'			=> 'Синхронізувати свої теми',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Ви дійсно хочете синхронізувати свої теми?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Зняття позначок з усіх тим з подальшою коректної маркуванням всіх тем, до яких був доступ в останні шість місяців.',
@@ -421,7 +421,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Неактивовані користувачі',
 
 	'WELCOME_PHPBB'			=> 'Ласкаво просимо в phpBB',
-	'WRITABLE_CONFIG'		=> 'Файл <samp>config.php</samp> в даний час доступний для запису. Наполегливо рекомендується змінити право доступу до цього файлу на 640 або принаймні на 644 (наприклад: <a href="http://uk.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Файл <samp>config.php</samp> в даний час доступний для запису. Настійно рекомендується змінити право доступу до цього файлу на 640 або принаймні на 644 (наприклад: <a href="http://uk.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -654,18 +654,18 @@ $lang = array_merge($lang, array(
 	'LOG_MODULE_ADD'		=> '<strong>Додано модуль</strong><br />» %s',
 	'LOG_MODULE_EDIT'		=> '<strong>Змінений модуль</strong><br />» %s',
 
-	'LOG_A_ROLE_ADD'		=> '<strong>Додана роль адміністратора</strong><br />» %s',
-	'LOG_A_ROLE_EDIT'		=> '<strong>Змінена роль адміністратора</strong><br />» %s',
-	'LOG_A_ROLE_REMOVED'	=> '<strong>Видалена роль адміністратора</strong><br />» %s',
+	'LOG_A_ROLE_ADD'		=> '<strong>Додана адміністраторська роль</strong><br />» %s',
+	'LOG_A_ROLE_EDIT'		=> '<strong>Змінена адміністраторська роль</strong><br />» %s',
+	'LOG_A_ROLE_REMOVED'	=> '<strong>Видалена адміністраторська роль</strong><br />» %s',
 	'LOG_F_ROLE_ADD'		=> '<strong>Додана форумна роль</strong><br />» %s',
 	'LOG_F_ROLE_EDIT'		=> '<strong>Змінена форумна роль</strong><br />» %s',
 	'LOG_F_ROLE_REMOVED'	=> '<strong>Видалена форумна роль</strong><br />» %s',
-	'LOG_M_ROLE_ADD'		=> '<strong>Додана роль модератора</strong><br />» %s',
-	'LOG_M_ROLE_EDIT'		=> '<strong>Змінена роль модератора</strong><br />» %s',
-	'LOG_M_ROLE_REMOVED'	=> '<strong>Видалена роль модератора</strong><br />» %s',
-	'LOG_U_ROLE_ADD'		=> '<strong>Додана роль користувача</strong><br />» %s',
-	'LOG_U_ROLE_EDIT'		=> '<strong>Змінена роль користувача</strong><br />» %s',
-	'LOG_U_ROLE_REMOVED'	=> '<strong>Видалена роль користувача</strong><br />» %s',
+	'LOG_M_ROLE_ADD'		=> '<strong>Додана модераторська роль</strong><br />» %s',
+	'LOG_M_ROLE_EDIT'		=> '<strong>Змінена модераторська роль</strong><br />» %s',
+	'LOG_M_ROLE_REMOVED'	=> '<strong>Видалена модератораторська роль</strong><br />» %s',
+	'LOG_U_ROLE_ADD'		=> '<strong>Додана користувацька роль</strong><br />» %s',
+	'LOG_U_ROLE_EDIT'		=> '<strong>Змінена користувацька роль</strong><br />» %s',
+	'LOG_U_ROLE_REMOVED'	=> '<strong>Видалена користувацька роль</strong><br />» %s',
 	
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Неможливо відкрити %1$s для очищення, перевірте права доступу.</strong><br />Виняток: %2$s<br />Додаткові відомості: %3$s',
 
@@ -692,7 +692,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Видалена причина скарги/відхилення</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Оновлена ​​причина скарги/відхилення</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>Перевірка реферера не вдалася </strong><br />Рефер: «<em>%1$s</em>». Запит був відхилений, сесія видалена.',
+	'LOG_REFERER_INVALID'		=> '<strong>Перевірка реферера не вдалася </strong><br />Рефер: “<em>%1$s</em>”. Запит був відхилений, сесія видалена.',
 	'LOG_RESET_DATE'			=> '<strong>Скинута дата запуску конференції</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Скинутий рекорд відвідуваності</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Синхронізована статистика вкладень</strong>',
@@ -735,9 +735,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>Оновлений phpBB з версії %1$s до версії %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Активований користувач</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Заблокований користувач через розділ Управління користувачами</strong> з причини «<em>%1$s</em>»<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>Заблокований IP-адресу через розділ Управління користувачами</strong> з причини «<em>%1$s</em>»<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокований email-адресу через розділ Управління користувачами</strong> з причини "<em>%1$s</em>»<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Заблокований користувач через розділ Управління користувачами</strong> з причини "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>Заблокований IP-адресу через розділ Управління користувачами</strong> з причини "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокований email-адресу через розділ Управління користувачами</strong> з причини "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Видалений користувач</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Видалені всі вкладення користувача</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Видалена аватара користувача</strong><br />» %s',
