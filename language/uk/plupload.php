@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_CLOSE'			=> 'Закрити',
 	'PLUPLOAD_DRAG'				=> 'Перемістіть файли сюди.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Помилка: вказаний файл вже існує.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Можна прикріплювати файли, перетягуючи їх у вікно повідомлення.',
 	'PLUPLOAD_ERR_INPUT'		=> 'Неможливо відкрити вхідний потік.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Неможливо перемістити завантажений файл.',
 	'PLUPLOAD_ERR_OUTPUT'		=> 'Неможливо відкрити вихідний потік.',
