@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'CP_LANG_NAME'				=> 'Ім\'я поля/заголовок, що показується користувачеві',
 	'CP_LANG_OPTIONS'			=> 'Варіанти',
 	'CREATE_NEW_FIELD'			=> 'Додати нове поле',
-	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Принаймні одне додаткове поле профілю поки не переведено. Введіть необхідні дані, перейшовши за посиланням «Перевести».',
+	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Принаймні одне додаткове поле профілю на даний момент не переведено. Введіть необхідні дані, перейшовши за посиланням «Перевести».',
 
 	'DEFAULT_ISO_LANGUAGE'			=> 'Мова за замовчуванням [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'	=> 'Для поля профілю не заповнені змінні мови за замовчуванням.',
@@ -65,6 +65,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Користувач може змінити значення поля в особистому розділі.',
 	'DISPLAY_AT_REGISTER'			=> 'У формі реєстрації',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Якщо включено, поле можна заповнити при реєстрації.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Display on memberlist screen',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'If this option is enabled, the field will be displayed in the user rows on the memberlist screen.',
 	'DISPLAY_ON_PM'					=> 'Відображати при перегляді приватних повідомлень',
 	'DISPLAY_ON_PM_EXPLAIN'			=> 'Якщо включено, дане поле буде відображено в мініпрофілі при перегляді приватних повідомлень.',
 	'DISPLAY_ON_VT'					=> 'На сторінках тем',
@@ -151,7 +153,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Введіть текст, за замовчуванням відображається в полі. Не вводьте текст, якщо хочете залишити поле порожнім.',
 	'TRANSLATE'						=> 'Перевести',
 
-	'USER_FIELD_NAME'	=> 'Ім\'я поля / заголовок, що показується користувачеві',
+	'USER_FIELD_NAME'	=> 'Ім\'я поля/заголовок, що показується користувачеві',
 
 	'VISIBILITY_OPTION'				=> 'Видимість поля',
 ));
