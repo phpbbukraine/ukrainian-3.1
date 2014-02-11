@@ -45,8 +45,8 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Інформація',
 
-	'EXTENSIONS_DISABLED'  => 'Увімкнути розширення',
-	'EXTENSIONS_ENABLED'   => 'Вимкнути розширення',
+	'EXTENSIONS_DISABLED'  => 'Вимкнути розширення',
+	'EXTENSIONS_ENABLED'   => 'Увімкнути розширення',
 
 	'EXTENSION_DELETE_DATA'  => 'Видалити дані',
     'EXTENSION_DISABLE'      => 'Вимкнути',
