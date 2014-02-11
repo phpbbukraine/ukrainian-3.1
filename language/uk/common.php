@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 
 	'CANCEL'				=> 'Відміна',
 	'CHANGE'				=> 'Редагувати',
-	'CHANGE_FONT_SIZE'		=> 'Змінити розмір шрифту',
+	'CHANGE_FONT_SIZE'		=> 'Змінити розміру шрифту',
 	'CHANGING_PREFERENCES'	=> 'Зміна особистих налаштувань',
 	'CHANGING_PROFILE'		=> 'Зміна налаштувань профілю',
 	'CHARACTERS'			=> array(
@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'FTP_FSOCK_ROOT_PATH'			=> 'Шлях до phpBB',
 	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'Шлях до папки, яка містить phpBB, відносно кореня сайту.',
 	'FTP_FSOCK_TIMEOUT'				=> 'Тайм-аут FTP',
-	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде чекати відповіді від FTP-сервера.',
+	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде очікувати відповіді від FTP-сервера.',
 	'FTP_FSOCK_USERNAME'			=> 'Ім\'я користувача FTP',
 	'FTP_FSOCK_USERNAME_EXPLAIN'	=> 'Ім\'я користувача для з\'єднання з FTP-сервером.',
 
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'FTP_ROOT_PATH'				=> 'Шях до phpBB',
 	'FTP_ROOT_PATH_EXPLAIN'		=> 'Шлях до папки, яка містить phpBB, відносно кореня сайту.',
 	'FTP_TIMEOUT'				=> 'Тайм-аут FTP',
-	'FTP_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде чекати відповіді від FTP-сервера.',
+	'FTP_TIMEOUT_EXPLAIN'		=> 'Час в секундах, протягом якого система буде очікувати відповіді від FTP-сервера.',
 	'FTP_USERNAME'				=> 'Ім\'я користувача FTP',
 	'FTP_USERNAME_EXPLAIN'		=> 'Ім\'я користувача для з\'єднання з FTP-сервером.',
 
