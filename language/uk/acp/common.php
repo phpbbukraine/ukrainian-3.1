@@ -347,16 +347,16 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'Розмір бази даних',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Перевантаження функцій налаштована невірно',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Перевантаження функцій налаштовано невірно',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'Параметр <var>mbstring.func_overload</var> має дорівнювати 0 або 4. Ви можете перевірити поточне значення на сторінці <samp>Відомості про PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Перетворення кодувань налаштоване невірно',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Параметр <var>mbstring.encoding_translation</var> повинен бути дорівнює 0. Ви можете перевірити поточне значення на сторінці <samp>Відомості про PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Кодування вхідного потоку HTTP налаштована невірно',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Кодування вхідного потоку HTTP налаштовано невірно',
 	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Параметр <var>mbstring.http_input</var> має дорівнювати <samp>pass</samp>. Ви можете перевірити поточне значення на сторінці <samp>Відомості про PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Кодування вихідного потоку HTTP налаштована невірно',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Параметр <var>mbstring.http_output</var> має дорівнювати <samp>pass</samp>. Ви можете перевірити поточне значення на сторінці+ <samp>Відомості про PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Кодування вихідного потоку HTTP налаштовано невірно',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Параметр <var>mbstring.http_output</var> має дорівнювати <samp>pass</samp>. Ви можете перевірити поточне значення на сторінці <samp>Відомості про PHP</samp>.',
 
-	'FILES_PER_DAY'		=> 'Вкладеньв в день',
+	'FILES_PER_DAY'		=> 'Вкладень в день',
 	'FORUM_STATS'		=> 'Статистика конференції',
 
 	'GZIP_COMPRESSION'	=> 'Стиснення GZip',
@@ -463,12 +463,12 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Додані або змінені користувальницькі права користувачів</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Додані або змінені користувальницькі права груп</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Додані або змінені супермодераторскі права користувачів</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Додані або змінені супермодераторскі права груп</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Додані або змінені адміністраторські права користувачів</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Додані або змінені адміністраторські права груп</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Додані або змінені права користувачів </strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Додані або змінені права користувачів груп</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Додані або змінені права супермодераторів користувачів</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Додані або змінені права супермодераторів груп</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Додані або змінені права адміністраторів користувачів</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Додані або змінені права адміністраторів груп</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Додані або змінені адміністратори</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Додані або змінені супермодератори</strong><br />» %s',
@@ -483,7 +483,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Видалені адміністратори</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Видалені супермодератори</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Видалені модератори</strong> из %1$s<br />» %2$s',
+	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Видалені модератори</strong> із %1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Видалений доступ користувача/групи до форуму</strong> із %1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Перенесені права доступу користувача</strong><br />» %s',
@@ -504,13 +504,13 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Не вкладені файли видалені</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Виключений користувач зі списку заблокованих</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Виключений IP-адресу зі списку заблокованих</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Виключений email-адресу зі списку заблокованих</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Виключена IP-адреса зі списку заблокованих</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Виключена email-адреса зі списку заблокованих</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_USER'			=> '<strong>Заблокований користувач</strong> з причини "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_IP'			=> '<strong>Заблокований IP-адрес</strong> з причини "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_IP'			=> '<strong>Заблокована IP-адреса</strong> з причини "<em>%1$s</em>"<br />» %2$s',
 	'LOG_BAN_EMAIL'			=> '<strong>Заблокована email-адреса</strong> з причини "<em>%1$s</em>"<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Розблокований користувач</strong><br />» %s',
-	'LOG_UNBAN_IP'			=> '<strong>Розблокований IP-адрес</strong><br />» %s',
+	'LOG_UNBAN_IP'			=> '<strong>Розблокована IP-адреса</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>Розблокована email-адреса</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'		=> '<strong>Доданий новий BBCode</strong><br />» %s',
@@ -567,7 +567,7 @@ $lang = array_merge($lang, array(
 	'LOG_SOFTDELETE_POST'		=> '<strong>Видалено повідомлення «%1$s» автора</strong><br />» %2$s',
 	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Видалено тему «%1$s» написана автором</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Переміщені розділені повідомлення</strong><br />» в %s',
-	'LOG_SPLIT_SOURCE'			=> '<strong>Розділені повідомлення</strong><br />» из %s',
+	'LOG_SPLIT_SOURCE'			=> '<strong>Розділені повідомлення</strong><br />» із %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Схвалення теми</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Відновлена ​​тема</strong><br />» %s',
@@ -584,9 +584,9 @@ $lang = array_merge($lang, array(
 	'LOG_DB_DELETE'			=> '<strong>Видалення резервної копії бази даних</strong>',
 	'LOG_DB_RESTORE'		=> '<strong>Відновлення бази даних</strong>',
 
-	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>Виключений IP-адрес/хост зі списку завантажування</strong><br />» %s',
-	'LOG_DOWNLOAD_IP'			=> '<strong>Доданий IP-адрес/хост до списку завантажування</strong><br />» %s',
-	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Видалений IP-адрес/хост зі списку завантажування</strong><br />» %s',
+	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>Виключена IP-адреса/хост зі списку завантажування</strong><br />» %s',
+	'LOG_DOWNLOAD_IP'			=> '<strong>Додана IP-адреса/хост до списку завантажування</strong><br />» %s',
+	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Видалена IP-адреса/хост зі списку завантажування</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Помилка Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Помилка пошти</strong><br />» %s',
@@ -625,11 +625,11 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Активовані користувачі</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Видалені неактивовані користувачі</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'	=> '<strong>Відправлені email-нагадування неактивованої користувачам</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Відправлені email-нагадування неактивованим користувачам</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Конференція %1$s сконвертована в phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Встановлений phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Невдала перевірка сесії по IP-адресу/браузеру/X_FORWARDED_FOR</strong><br />»IP-адрес користувача "<em>%1$s</em>" перевірений по IP-адресою сесії "<em>%2$s</em>", рядок браузера користувача "<em>%3$s</em>" перевірена по рядку браузера сесії "<em>%4$s</em>" і рядок X_FORWARDED_FOR пользователя "<em>%5$s</em>" перевірена по рядку X_FORWARDED_FOR сесії "<em>%6$s</em>".',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Невдала перевірка сесії по IP-адресу/браузеру/X_FORWARDED_FOR</strong><br />»IP-адреса користувача «<em>%1$s</em>» перевірений за IP-адресою сесії «<em>%2$s</em>», рядок браузера користувача «<em>%3$s</em>» перевірена по рядку браузера сесії «<em>%4$s</em>» і рядок X_FORWARDED_FOR пользователя «<em>%5$s</em>» перевірена по рядку X_FORWARDED_FOR сесії «<em>%6$s</em>».',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Змінилася обліковий запис Jabber</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Змінений пароль Jabber</strong>',
@@ -736,8 +736,8 @@ $lang = array_merge($lang, array(
 
 	'LOG_USER_ACTIVE'		=> '<strong>Активований користувач</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Заблокований користувач через розділ Управління користувачами</strong> з причини «<em>%1$s</em>»<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>Заблокований IP-адресу через розділ Управління користувачами</strong> з причини «<em>%1$s</em>»<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокований email-адресу через розділ Управління користувачами</strong> з причини "<em>%1$s</em>»<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>Заблокована IP-адреса через розділ Управління користувачами</strong> з причини «<em>%1$s</em>»<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокована email-адреса через розділ Управління користувачами</strong> з причини "<em>%1$s</em>»<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Видалений користувач</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Видалені всі вкладення користувача</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Видалена аватара користувача</strong><br />» %s',
@@ -750,7 +750,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>Примусова повторна активація облікового запису користувача</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Видалений прапорець нової реєстрації користувача</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Користувачем «%1$s» змінений email-адресу</strong><br />» з «%2$s» на «%3$s»"',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Користувачем «%1$s» змінений email-адресу</strong><br />» з «%2$s» на «%3$s»',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Змінено ім\'я користувача</strong><br />» з «%1$s» на «%2$s»',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Оновлена інформацію про користувача</strong><br />» %s',
 

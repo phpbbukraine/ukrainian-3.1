@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ADD_FRIEND'			=> 'Додати до друзів',
 	'AFTER'					=> 'після',
 
-	'ALL'					=> 'Все',
+	'ALL'					=> 'Всі',
 
 	'BEFORE'				=> 'до',
 

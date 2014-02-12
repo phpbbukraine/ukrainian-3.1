@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_ICONS'				=> 'Змінити значки',
 	'EDIT_SMILIES'				=> 'Змінити смайлики',
-	'EMOTION'					=> 'Емоция',
+	'EMOTION'					=> 'Емоція',
 	'EXPORT_ICONS'				=> 'Експортувати і завантажити файл icons.pak',
 	'EXPORT_ICONS_EXPLAIN'		=> '%sПісля клацання по цьому посиланню конфігурація встановлених значків буде упакована в файл <samp>icons.pak</samp>, який після завантаження можна використовувати для створення архівів <samp>.zip</samp> или <samp>.tgz</samp>, що містять всі ваші значки разом з конфігураційним файлом <samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'			=> 'Експортувати і завантажити файл smilies.pak',

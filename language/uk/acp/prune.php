@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 
 	'FORUM_PRUNE'		=> 'Очищення форумів',
 
-	'NO_PRUNE'			=> 'Очищення форумів не зроблена.',
+	'NO_PRUNE'			=> 'Очищення форумів не виконано.',
 
 	'SELECTED_FORUM'	=> 'Вибраний форум',
 	'SELECTED_FORUMS'	=> 'Вибрані форуми',

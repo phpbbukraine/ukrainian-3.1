@@ -64,7 +64,6 @@ $lang = array_merge($lang, array(
 	'NO_READ_ACCESS'		=> 'У вас немає доступу на читання тем у цьому форумі.',
 
 	'VIEW_FORUM'			=> 'Перегляд форуму',
-	'VIEW_FORUM_TOPIC'		=> '1 тема',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1		=> '%d тема',
 		2		=> '%d теми',
