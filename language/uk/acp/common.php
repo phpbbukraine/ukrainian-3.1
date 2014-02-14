@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	'DEACTIVATE'				=> 'Відключити',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Зазначений шлях «%s» не існує.',
 	'DIRECTORY_NOT_DIR'			=> 'Зазначений шлях «%s» не є папкою.',
-	'DIRECTORY_NOT_WRITABLE'	=> 'Запис у папку «%s» заборонена.',
+	'DIRECTORY_NOT_WRITABLE'	=> 'Запис в папку «%s» заборонена.',
 	'DISABLE'					=> 'Відключити',
 	'DOWNLOAD'					=> 'Завантажити',
 	'DOWNLOAD_AS'				=> 'завантажити як',
@@ -328,7 +328,7 @@ $lang = array_merge($lang, array(
 
 	'NO_ENTRIES'	=> 'Немає записів за вказаний період.',
 
-	'SORT_IP'		=> 'IP-адрес',
+	'SORT_IP'		=> 'IP-адреса',
 	'SORT_DATE'		=> 'Дата',
 	'SORT_ACTION'	=> 'Дія',
 ));
@@ -761,7 +761,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GENERAL'			=> '<strong>Доданий елемент:</strong><br />» %s',
 	'LOG_USER_INACTIVE_USER'	=> '<strong>Деактивований обліковий запис користувача</strong>',
 	'LOG_USER_LOCK'				=> '<strong>Користувач закрив свою тему</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS_USER'	=> '<strong>Переміщені всі повідомлення в форум "%s"</strong>',
+	'LOG_USER_MOVE_POSTS_USER'	=> '<strong>Переміщені всі повідомлення в форум «%s»</strong>',
 	'LOG_USER_REACTIVATE_USER'	=> '<strong>Примусова повторна активація облікового запису користувача</strong>',
 	'LOG_USER_UNLOCK'			=> '<strong>Користувач відкрив свою тему</strong><br />» %s',
 	'LOG_USER_WARNING'			=> '<strong>Винесено попередження користувачеві</strong><br />» %s',

@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'				=> 'Обрана група вже є Вашою групою за замовчуванням.',
+	'ALREADY_DEFAULT_GROUP'				=> 'Обрана група вже є вашою групою за замовчуванням.',
 	'ALREADY_IN_GROUP'					=> 'Ви вже є членом обраної групи.',
 	'ALREADY_IN_GROUP_PENDING'			=> 'Ви вже запросили членство в обраній групі.',
 
@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'CHANGED_DEFAULT_GROUP'				=> 'Група за замовчуванням успішно змінена.',
 
 	'GROUP_AVATAR'						=> 'Аватара групи', 
-	'GROUP_CHANGE_DEFAULT'				=> 'Ви впевнені, що хочете змінити Вашу групу за замовчуванням на «%s»?',
+	'GROUP_CHANGE_DEFAULT'				=> 'Ви впевнені, що хочете змінити вашу групу за замовчуванням на «%s»?',
 	'GROUP_CLOSED'						=> 'Закрита група',
 	'GROUP_DESC'						=> 'Опис групи',
 	'GROUP_HIDDEN'						=> 'Прихована група',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGN_PENDING'				=> 'Відкликати запит на вступ до групи',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Ви впевнені, що хочете відкликати запит на вступ до вибраної групи?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Ви були успішно видалені з обраної групи.',
-	'GROUP_RESIGNED_PENDING'			=> 'Ваш запит на вступ до вибраної групи успішно відкликаний.',
+	'GROUP_RESIGNED_PENDING'			=> 'Ваш запит на вступ до вибраної групи успішно відхилений.',
 	'GROUP_TYPE'						=> 'Тип групи',
 	'GROUP_UNDISCLOSED'					=> 'Прихована група',
 	'FORUM_UNDISCLOSED'					=> 'Модерування прихованого форума(ів)',
