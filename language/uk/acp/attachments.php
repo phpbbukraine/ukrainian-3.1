@@ -130,6 +130,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Група розширень дозволена тільки в повідомленнях',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Група розширень заборонена',
 	'NOT_ASSIGNED'				=> 'Не призначена',
+	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'Ні',
 	'NO_EXT_GROUP_NAME'			=> 'Не вказано ім\'я групи',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Не зазначена група розширень.',
