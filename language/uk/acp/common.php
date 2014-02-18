@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_MASK'			=> 'Глобальна маска доступу',
 
 	'INSTALL'				=> 'Встановити',
-	'IP'					=> 'IP-адрес користувача',
+	'IP'					=> 'IP-адреса користувача',
 	'IP_HOSTNAME'			=> 'IP-адреса або хости',
 
 	'LOAD_NOTIFICATIONS'			=> 'Показувати сповіщення',
@@ -415,7 +415,7 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Користувачів в день',
 
 	'VALUE'						=> 'Значення',
-	'VERSIONCHECK_FAIL'			=> 'Не вдалося відомості про останній версії.',
+	'VERSIONCHECK_FAIL'			=> 'Не вдалося отримати відомості про останню версію.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Повторно перевірити версію',
 	'VIEW_ADMIN_LOG'			=> 'Лог адміністраторів',
 	'VIEW_INACTIVE_USERS'		=> 'Неактивовані користувачі',
