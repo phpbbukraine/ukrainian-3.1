@@ -121,7 +121,6 @@ $lang = array_merge($lang, array(
 		3  	=> '%d повідомлень',
 	),
 	'VIEW_UNREAD_POST'		=> 'Перше нове повідомлення',
-	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Дякуємо, ваш голос врахований.',
 	'VOTE_CONVERTED'		=> 'Зміна голосів у сконвертування опитуваннях не дозволена.',
 

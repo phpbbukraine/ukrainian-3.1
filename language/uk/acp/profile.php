@@ -82,6 +82,8 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Все в порядку',
 
 	'FIELD_BOOL'				=> 'Логічне поле (Так або Ні)',
+	'FIELD_CONTACT_DESC'		=> 'Contact description',
+	'FIELD_CONTACT_URL'			=> 'Contact link',
 	'FIELD_DATE'				=> 'Дата',
 	'FIELD_DESCRIPTION'			=> 'Опис поля',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Підказка до поля, яке показується користувачеві',
@@ -90,6 +92,8 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Поле з таким ідентифікатором вже існує. Введіть інший ідентифікатор.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Назва поля для його позначення в базі даних і файлах шаблонів.',
 	'FIELD_INT'					=> 'Число',
+	'FIELD_IS_CONTACT'			=> 'Display field as a contact field',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contact fields are displayed with in the contact section of the user profile and are displayed differently in the mini profile next to posts and private messages.',
 	'FIELD_LENGTH'				=> 'Розмір поля введення',
 	'FIELD_NOT_FOUND'			=> 'Поле не знайдено.',
 	'FIELD_STRING'				=> 'Однорядкове текстове поле',

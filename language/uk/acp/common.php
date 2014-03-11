@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAT_CUSTOMISE'			=> 'Розширення',
 	'ACP_CAT_DATABASE'			=> 'База даних',
-	'ACP_CAT_DOT_MODS'			=> 'Модулі',
+	'ACP_CAT_DOT_MODS'			=> 'Розширення',
 	'ACP_CAT_FORUMS'			=> 'Форуми',
 	'ACP_CAT_GENERAL'			=> 'Загальне',
 	'ACP_CAT_MAINTENANCE'		=> 'Обслуговування',

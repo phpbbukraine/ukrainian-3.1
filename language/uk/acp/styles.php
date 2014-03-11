@@ -191,8 +191,6 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
 	'IMG_ICON_CONTACT_MSNM'		=> 'WLM',
 	'IMG_ICON_CONTACT_PM'		=> 'Надіслати приватне повідомлення',
-	'IMG_ICON_CONTACT_YAHOO'	=> 'YIM',
-	'IMG_ICON_CONTACT_WWW'		=> 'Сайт користувача',
 
 	'IMG_ICON_POST_DELETE'			=> 'Видалити повідомлення',
 	'IMG_ICON_POST_EDIT'			=> 'Редагувати повідомлення',
