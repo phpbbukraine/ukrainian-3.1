@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'Налаштування пошти',
 	'ACP_EXTENSION_GROUPS'		=> 'Групи розширень файлів',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Управління розширеннями',
-	'ACP_EXTENSIONS'			=> 'Розширення',
+	'ACP_EXTENSIONS'			=> 'Управління розширеннями',
 	
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальні права доступу',
@@ -288,7 +288,6 @@ $lang = array_merge($lang, array(
 	'RESYNC'							=> 'Синхронізувати',
 	'RESYNC_FILES_STATS'				=> 'Синхронізувати статистику вкладень',
 	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Перерахунок загальної кількості та розміру вкладень, прикріплених до повідомлень у темах і у приватних повідомленнями.',
-	'RETURN_TO'							=> 'Повернутися у…',
 
 	'SELECT_ANONYMOUS'		=> 'Вибрати обліковий запис гостя',
 	'SELECT_OPTION'			=> 'Виберіть дію',

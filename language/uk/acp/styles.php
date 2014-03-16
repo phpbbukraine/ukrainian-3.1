@@ -185,11 +185,8 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_BACK_TOP'		=> 'Наверх',
 
-	'IMG_ICON_CONTACT_AIM'		=> 'AIM',
 	'IMG_ICON_CONTACT_EMAIL'	=> 'Надіслати електронне повідомлення',
-	'IMG_ICON_CONTACT_ICQ'		=> 'ICQ',
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
-	'IMG_ICON_CONTACT_MSNM'		=> 'WLM',
 	'IMG_ICON_CONTACT_PM'		=> 'Надіслати приватне повідомлення',
 
 	'IMG_ICON_POST_DELETE'			=> 'Видалити повідомлення',
