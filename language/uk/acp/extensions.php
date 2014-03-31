@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'HOMEPAGE'				=> 'Домашня сторінка',
 	'PATH'					=> 'Шлях',
 	'TIME'					=> 'Дата випуску',
-	'LICENCE'				=> 'Ліцензія',
+	'LICENSE'				=> 'Ліцензія',
 
 	'REQUIREMENTS'			=> 'Вимоги',
 	'PHPBB_VERSION'			=> 'Версія phpBB',

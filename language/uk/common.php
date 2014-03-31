@@ -220,8 +220,6 @@ $lang = array_merge($lang, array(
 	'ERR_CONNECTING_SERVER'				=> 'Помилка підключення до сервера.',
 	'ERR_JAB_AUTH'						=> 'Не вдалося авторизуватися на сервері Jabber.',
 	'ERR_JAB_CONNECT'					=> 'Не вдалося підключитися до сервера Jabber.',
-	'ERR_TEMPLATE_EVENT_LOCATION'		=> 'Вказане місце події шаблону <em>[%s]</em> має невірний формат.',
-	'ERR_TEMPLATE_COMPILATION'			=> 'Файл не скомпліовано: %s',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ви вказали невірне ім\'я користувача або пароль.',
 	'ERR_UNWATCHING'					=> 'При спробі відмовитися від підписки виникла помилка.',
 	'ERR_WATCHING'						=> 'При спробі підписатися виникла помилка.',
@@ -444,18 +442,35 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Ви більше не підписані на оновлення в цьому форумі.',
 	'NOT_WATCHING_TOPIC'		=> 'Ви більше не підписані на цю тему.',
 	'NOTIFICATIONS'				=> 'Сповіщення',
-	'NOTIFICATION_BOOKMARK'				=> '%1$s відповів у темі «%2$s», що знаходиться у Вас в закладках.',
-	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s і інші користувачі %3$d відповіли в темі «%2$s», що знаходиться у Вас в закладках.',
+	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Examples:
+	// A replied...
+	// A and B replied...
+	// A, B and C replied...
+	// A, B, C and 2 others replied...	
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1		=> '%1$s відповів у темі «%2$s», що знаходиться у Вас в закладках.',
+		2		=> '%1$s відповіли у темі «%2$s», що знаходиться у Вас в закладках.',
+		3		=> '%1$s відповіли у темі «%2$s», що знаходиться у Вас в закладках.',
+	),
 	'NOTIFICATION_GROUP_REQUEST'    	=> '%1$s подав запит на вступ до групи %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => 'Ваш запит на вступ до групи %1$s схвалений.',
 	'NOTIFICATION_PM'					=> '%1$s відправив Вам приватне повідомлення «%2$s».',
-	'NOTIFICATION_POST'					=> '%1$s відповів у темі «%2$s».',
-	'NOTIFICATION_POST_TRIMMED'      	=> '%1$s і інші %3$d відповіли в темі «%2$s»',
+	'NOTIFICATION_POST'					=> array(
+		1		=> '%1$s відповів у темі «%2$s».',
+		2		=> '%1$s відповіли у темі «%2$s».',
+		3		=> '%1$s відповіли у темі «%2$s».',
+	),
 	'NOTIFICATION_POST_APPROVED'		=> 'Ваше повідомлення схвалено «%2$s».',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Ваше повідомлення «%1$s» відхилено з причини: «%2$s».',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Нове повідомлення із заголовком «%2$s» зупинено користувачем %1$s і вимагає схвалення.',
-	'NOTIFICATION_QUOTE'				=> '%1$s процитував Вас у повідомленні «%2$s».',
-	'NOTIFICATION_QUOTE_TRIMMED'    	=> '%1$s і інші %3$d процитували Вас в темі «%2$s»',
+	'NOTIFICATION_QUOTE'				=> array(
+		1		=> '%1$s процитував Вас в повідомленні «%2$s».',
+		2		=> '%1$s процитували Вас в повідомленні «%2$s».',
+		3		=> '%1$s процитували Вас в повідомленні «%2$s».',
+	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s поскаржився на приватне повідомлення «%2$s» з причини: «%3$s».',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s поскаржився на повідомлення «%2$s» з причини: «%3$s».',
 	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s закрив Вашу скаргу на «%2$s».',
@@ -465,6 +480,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Нова тема «%2$s» створена користувачем %1$s і вимагає схвалення.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення «%s» відсутній у файловій системі.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач «%1$s» недавно зареєстрований і вимагає активації.',
+	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	'NOTIFICATION_X_OTHERS'				=> array(
+		1		=> 'ще %d користувач',
+		2		=> '%d інших',
+		3		=> '%d інших',
+	),
 	'NOTIFY_ADMIN'				=> 'Повідомте про це адміністратора конференції або вебмастера.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Повідомте про це адміністратора конференції або вебмастера: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам заборонений доступ до цього файлу.',
@@ -694,6 +715,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'Підписатись на тему',
 	'STOP_WATCHING_FORUM'		=> 'Відписатись від форума',
 	'STOP_WATCHING_TOPIC'		=> 'Відписатись від теми',
+	'STRING_LIST_MULTI'			=> '%1$s, і %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s і %2$s',
 	'SUBFORUM'					=> 'Підфорум',
 	'SUBFORUMS'					=> 'Підфоруми',
 	'SUBJECT'					=> 'Заголовок',
