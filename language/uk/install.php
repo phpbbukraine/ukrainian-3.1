@@ -151,7 +151,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL з розширенням MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'Підтримка XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'Підтримка стиснення zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Завантажити файл конфігурації',
@@ -212,6 +213,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 і вище (підтримується MySQLi)</li>
 		<li>PostgreSQL 8.3 і вище</li>
 		<li>SQLite 2.8.2 і вище</li>
+		<li>SQLite 3.6.15 і вище</li>
 		<li>Firebird 2.1 і вище</li>
 		<li>MS SQL Server 2000 і вище (безпосередньо або через ODBC)</li>
 		<li>MS SQL Server 2005 і вище (native)</li>
@@ -234,7 +236,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_INVALID_PREFIX'=> 'Вказано неправильну префікс. Він повинен починатися з літери і може містити тільки букви, числа і знаки підкреслення.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Немає повідомлення про помилку.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Встановлена ​​на сервері версія MySQL несумісна з обраним варіантом «MySQL з розширенням MySQLi». Замість нього спробуйте вибрати варіант «MySQL».',
-	'INST_ERR_DB_NO_SQLITE'		=> 'У вас встановлена ​​застаріла версія розширення SQLite. Її необхідно оновити хоча б до версії 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'У вас встановлена ​​застаріла версія розширення SQLite. Її необхідно оновити як мінімум до версії 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'У вас встановлена ​​застаріла версія розширення SQLite. Її необхідно оновити як мінімум до версії 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Для встановленої на сервері версії Oracle необхідно встановити значення параметра <var>NLS_CHARACTERSET</var> м <var>UTF8</var>. Або поновіть базу даних до версії 9.2 або вище, або змініть значення параметра.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'Встановлена ​​на сервері версія Firebird старіше 2.1. Поновити базу даних до нової версії.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Обрана база даних Firebird має розмір сторінки менше 8192. Розмір сторінки повинен бути не менше 8192.',

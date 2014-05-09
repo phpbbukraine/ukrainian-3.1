@@ -41,9 +41,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Не задано значення аргументу #%1$s: <strong>%3$s</strong> класа <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Не вказаний контролер.',
-	'CONTROLLER_NOT_FOUND'				=> 'Запитувана сторінка не знайдена.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Не вказаний метод для даного контролера.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'Для контролера «<strong>%s</strong>» необхідно вказати службу у файлі ./config/routing.yml.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Служба контролера «<strong>%s</strong>» не вказана в файлі ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Об\'єкт контролера <strong>%s</strong> повинен повертати об\'єкт Symfony\Component\HttpFoundation\Response.',
 ));

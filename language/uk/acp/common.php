@@ -85,7 +85,6 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Управління розширеннями',
 	'ACP_EXTENSIONS'			=> 'Управління розширеннями',
 	
-
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальні права доступу',
 	'ACP_FORUM_LOGS'				=> 'Логи',
 	'ACP_FORUM_MANAGEMENT'			=> 'Форуми',
@@ -241,9 +240,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Завантажити',
 	'EXPORT_STORE'			=> 'Зберегти',
 	
-	'FILES_GONE'			=> 'Деякі з обраних для видалення вкладень не існують. Вони могли бути видалені раніше. Решта вкладень успішно видалені.',
-	'FILES_STATS_WRONG'		=> 'Можливо, статистика вкладень невірна і вимагає синхронізації. Правильні значення: кількість вкладень = %1$d, загальний розмір вкладень = %2$s.',	
-
 	'GENERAL_OPTIONS'		=> 'Загальні параметри',
 	'GENERAL_SETTINGS'		=> 'Загальні налаштування',
 	'GLOBAL_MASK'			=> 'Глобальна маска доступу',
@@ -286,8 +282,6 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Нагадати',
 	'RESYNC'							=> 'Синхронізувати',
-	'RESYNC_FILES_STATS'				=> 'Синхронізувати статистику вкладень',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Перерахунок загальної кількості та розміру вкладень, прикріплених до повідомлень у темах і у приватних повідомленнями.',
 
 	'SELECT_ANONYMOUS'		=> 'Вибрати обліковий запис гостя',
 	'SELECT_OPTION'			=> 'Виберіть дію',
@@ -388,7 +382,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Скидання рекорду відвідуваності',
 	'RESET_ONLINE_CONFIRM'			=> 'Ви дійсно хочете скинути рекорд відвідуваності конференції?',
 	'RESET_ONLINE_SUCCESS'			=> 'Рекорд відвідуваності конференції успішно скинутий',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Ви дійсно хочете синхронізувати статистику вкладень?',
 	'RESYNC_POSTCOUNTS'				=> 'Синхронізувати лічильники повідомлень',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будуть враховані тільки існуючі повідомлення. Видалені повідомлення не будуть підраховані.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Ви дійсно хочете синхронізувати лічильники повідомлень?',
@@ -557,7 +550,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Закрита скарга на приватне повідомлення</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Видалена скарга на приватне повідомлення</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Схвалення повідомлення</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Відхилення повідомлення «%1$s» з причини</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Відхилення повідомлення «%1$s» автора «%3$s» з причини</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Редагування повідомлення в темі «%1$s», написаного автором</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Відновлено повідомлення</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закриття скарги</strong><br />» %s',
@@ -570,7 +563,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Схвалення теми</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Відновлена ​​тема</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Відхилення теми «%1$s» з причини</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Відхилення теми «%1$s» автора «%3$s» з причини</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Синхронізовані лічильники теми</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Змінено тип теми</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Відкрита тема</strong><br />» %s',
@@ -676,6 +669,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Очищені форуми</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Проведене автоочищення форумів</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Проведена автоочистка посилань на перенесені теми</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Деактивовані користувачі</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Видалені користувачі з їх повідомленнями</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Видалені користувачі, їхні повідомлення залишені</strong><br />» %s',
@@ -773,7 +767,11 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Користувач відмовився від участі в групі</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Видалено попередження у користувача</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Видалено %2$s попереджень у користувача</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1		=> '<strong>Видалено попередження користувача</strong><br />» %1$s',
+		2		=> '<strong>Видалено %2$s попередження користувача</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username',
+		3		=> '<strong>Видалено %2$s попереджень користувача</strong><br />» %1$s',
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Видалені всі попередження у користувача</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Доданий цензор слів</strong><br />» %s',

@@ -107,6 +107,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'Файли Real Media',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Файли Windows Media',
 
+	'FILES_GONE'			=> 'Деякі вкладення з обраних для видалення не існують. Можливо, вони вже були видалені раніше. Існуючі вкладення успішно видалені.',
+	'FILES_STATS_WRONG'		=> 'Можливо, статистика вкладень невірна і вимагає синхронізації. Правильні значення: кількість вкладень = %1$d, загальний розмір вкладень = %2$s.<br />Натисніть %3$sтут%4$s для синхронізації статистики вкладень.',
+	
 	'GO_TO_EXTENSIONS'		=> 'Перейти на сторінку управління розширеннями',
 	'GROUP_NAME'			=> 'Ім\'я групи',
 
@@ -130,7 +133,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Група розширень дозволена тільки в повідомленнях',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Група розширень заборонена',
 	'NOT_ASSIGNED'				=> 'Не призначена',
-	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
+	'NO_ATTACHMENTS'			=> 'Не знайдено вкладень за вказаний період.',
 	'NO_EXT_GROUP'				=> 'Ні',
 	'NO_EXT_GROUP_NAME'			=> 'Не вказано ім\'я групи',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Не зазначена група розширень.',
@@ -144,8 +147,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Дозволити',
 	'ORDER_DENY_ALLOW'		=> 'Заборонити',
 
-	'REMOVE_ALLOWED_IPS'	=> 'Видалення або видалення з виключених <em>дозволених</em> IP-адресів або вузлів',
-	'REMOVE_DISALLOWED_IPS'	=> 'Видалення або видалення з виключених <em>зоборонених</em> IP-адресів або вузлів',
+	'REMOVE_ALLOWED_IPS'			=> 'Видалення або видалення з виключених <em>дозволених</em> IP-адресів або вузлів',
+	'REMOVE_DISALLOWED_IPS'			=> 'Видалення або видалення з виключених <em>зоборонених</em> IP-адресів або вузлів',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Ви дійсно хочете синхронізувати статистику вкладень?',
 
 	'SEARCH_IMAGICK'				=> 'Знайти Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Список дозволених і заборонених',

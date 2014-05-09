@@ -176,6 +176,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Вітаємо',
 	'CONNECTION_FAILED'		=> 'Помилка підключення.',
 	'CONNECTION_SUCCESS'	=> 'Підключення успішно встановлено.',
+	'CONTACT_USER'			=> 'Контактна інформація',
 	'COOKIES_DELETED'		=> 'Всі cookies, встановлені конференцією, успішно видалені.',
 	'CURRENT_TIME'			=> 'Поточний час: %s',
 
@@ -227,8 +228,6 @@ $lang = array_merge($lang, array(
 	'ERROR'								=> 'Помилка',
 	'EXPAND_VIEW'						=> 'Розгорнути',
 	'EXTENSION'							=> 'Розширення',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'Для розширення <strong>%s</strong> відсутній клас контролера і до нього неможливо отримати доступ через інтерфейс.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Клас контролера розширення <strong>%s</strong> не є об\'єктом phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'Розширення <strong>%s</strong> не включено.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'Розширення <strong>%s</strong> не існує.',
 	
@@ -367,6 +366,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Не вдалося з\'єднатися з сервером LDAP.',
 	'LDAP_SEARCH_FAILED'				=> 'Сталася помилка при пошуку в директорії LDAP.',
 	'LEGEND'							=> 'Легенда',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Пошук «на льоту» не дозволений.',
 	'LOADING'							=> 'Завантаження',
 	'LOCATION'							=> 'Звідки',
 	'LOCK_POST'							=> 'Заблокувати повідомлення',
@@ -442,14 +442,15 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Ви більше не підписані на оновлення в цьому форумі.',
 	'NOT_WATCHING_TOPIC'		=> 'Ви більше не підписані на цю тему.',
 	'NOTIFICATIONS'				=> 'Сповіщення',
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
-	// A, B, C and 2 others replied...	
+	// A, B, C and 2 others replied...
+	// A, B, C and others replied...	
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1		=> '%1$s відповів у темі «%2$s», що знаходиться у Вас в закладках.',
 		2		=> '%1$s відповіли у темі «%2$s», що знаходиться у Вас в закладках.',
@@ -480,7 +481,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Нова тема «%2$s» створена користувачем %1$s і вимагає схвалення.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення «%s» відсутній у файловій системі.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Користувач «%1$s» недавно зареєстрований і вимагає активації.',
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_X_OTHERS'				=> array(
 		1		=> 'ще %d користувач',
 		2		=> '%d інших',
@@ -797,7 +798,7 @@ $lang = array_merge($lang, array(
 	),
 	'TRACKED_PHP_ERROR'	=> 'Відстеження помилки PHP: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Не вдалося встановити розміри зображення.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Не вдалося встановити розміри зображення. Переконайтеся, що посилання на зображення правильне.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Не вдалося доставити файл.',
 	'UNKNOWN_BROWSER'		=> 'Невідомий браузер',
 	'UNMARK_ALL'			=> 'Зняти виділення',
@@ -1414,7 +1415,7 @@ $lang = array_merge($lang, array(
 		'D M d, Y g:i a'		=> 'Пн січ 10, 2005 5:57 pm',
 		'F j, Y, g:i a'			=> 'Січень 1, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Сьогодні, 13:37 / 01 Січ 2007, 13:37',
-		'|F j, Y|, g:i a'		=> 'Сьогодні, 1:37 pm / Січень 1, 2007, 1:37 pm'
+		'|F j, Y|, g:i a'		=> 'Сьогодні, 1:37 pm / Січень 1, 2007, 1:37 pm',
 	),
 
 	// The default dateformat which will be used on new installs in this language
