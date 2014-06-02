@@ -1,11 +1,14 @@
 <?php
 /**
 *
-* acp_permissions (phpBB Permission Set) [Ukrainian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 /**
@@ -144,7 +147,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Може редагувати повідомлення',
 	'ACL_M_DELETE'		=> 'Може видаляти повідомлення',
 	'ACL_M_SOFTDELETE'	=> 'Може видаляти повідомлення<br /><em>Модератори, які мають право схвалювати повідомлення, можуть відновлювати видалені повідомлення.</em>',
-	'ACL_M_APPROVE'		=> 'Може схвалювати повідомлення',
+	'ACL_M_APPROVE'		=> 'Може схвалювати і відновлювати повідомлення',
 	'ACL_M_REPORT'		=> 'Може закривати і видаляти скарги',
 	'ACL_M_CHGPOSTER'	=> 'Може міняти автора повідомлень',
 

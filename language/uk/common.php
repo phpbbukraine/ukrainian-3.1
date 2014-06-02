@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* common [Ukrainian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -115,7 +117,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Завеликий розмір файлу аватари. Максимально допустимий розмір — %1$d %2$s.<br />Примітка: це обмеження встановлене в файле php.ini і не може бути перевищено.',
 	'AVATAR_URL_INVALID'			=> 'Вказана адреса аватари недопустимий.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Зазначений файл аватари не знайдено.',
-	'AVATAR_WRONG_FILESIZE'			=> 'Розмір файлу аватари повинен знаходитися в діапазоні від 0 до %1d %2s.',
+	'AVATAR_WRONG_FILESIZE'			=> 'Розмір файлу аватари повинен знаходитися в діапазоні від 0 до %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'				=> 'Розміри відправленої аватари — %5$d×%6$d. Розміри аватари повинні бути не менше %1$d×%2$d, але не більше %3$d×%4$d.',
 
 	'BACK_TO_TOP'			=> 'Повернутися до початку',
@@ -176,7 +178,8 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Вітаємо',
 	'CONNECTION_FAILED'		=> 'Помилка підключення.',
 	'CONNECTION_SUCCESS'	=> 'Підключення успішно встановлено.',
-	'CONTACT_USER'			=> 'Контактна інформація',
+	'CONTACT'				=> 'Контактна інформація',
+	'CONTACT_USER'			=> 'Контактна інформація %s',
 	'COOKIES_DELETED'		=> 'Всі cookies, встановлені конференцією, успішно видалені.',
 	'CURRENT_TIME'			=> 'Поточний час: %s',
 
@@ -239,7 +242,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Розмір файла',
 	'FILEDATE'				=> 'Дата створення файла',
 	'FILE_COMMENT'			=> 'Коментарій до файлу',
-	'FILE_NOT_FOUND'		=> 'Запитуваний файл не знайдено.',
+	'FILE_NOT_FOUND'		=> 'Запитуваний файл не знайдено: %s',
 	'FIND_USERNAME'			=> 'Знайти користувача',
 	'FOLDER'				=> 'Папка',
 	'FORGOT_PASS'			=> 'Забули пароль?',
@@ -585,8 +588,9 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> 'Автором цього повідомлення є <strong>%1$s</strong>, що знаходиться у вашому чорному списку. %2$sПоказати це повідомлення%3$s.',
 	'POST_DISPLAY'			=> '%1$sПоказати це повідомлення%2$s.',
 	'POST_DAY'				=> '%.2f повідомлень в день',
-	'POST_DELETED'			=> 'Видалене повідомлення:',
-	'POST_DELETED_BY'		=> '<strong>%2$s</strong> видалено повідомлення <strong>%1$s</strong> в %3$s.',
+	'POST_DELETED_ACTION'	=> 'Видалене повідомлення:',
+	'POST_DELETED'			=> 'Повідомлення видалено.',
+	'POST_DELETED_BY'		=> '<strong>%2$s</strong> видалив повідомлення автора <strong>%1$s</strong> %3$s',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> видалено повідомлення <strong>%1$s</strong> в %3$s з наступної причини: %4$s',
 	'POST_DETAILS'			=> 'Інформація про повідомлення',
 	'POST_NEW_TOPIC'		=> 'Почати нову тему',
@@ -598,7 +602,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Заголовок повідомлення',
 	'POST_TIME'				=> 'Час розміщення',
 	'POST_TOPIC'			=> 'Нова тема',
-	'POST_UNAPPROVED'		=> 'Повідомлення очікує схвалення:',
+	'POST_UNAPPROVED_ACTION'=> 'Повідомлення очікує схвалення:',
+	'POST_UNAPPROVED'		=> 'Повідомлення схвалено.',
 	'POWERED_BY'			=> 'Створено на основі %s',
 	'PREVIEW'				=> 'Передпроглядання',
 	'PREVIOUS'				=> 'Попер.',		// Used in pagination
@@ -694,7 +699,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'Виберіть форум призначення',
 	'SELECT_FORUM'				=> 'Виберіть форум',
 	'SEND_EMAIL'				=> 'Відправити email',				// Used for submit buttons
-	'SEND_EMAIL_USER'			=> 'Відправити лист користувачеві',	// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> Email UserX
+	'SEND_EMAIL_USER'			=> 'Відправити лист користувачеві %s',
 	'SEND_PRIVATE_MESSAGE'		=> 'Відправити приватне повідомлення',
 	'SETTINGS'					=> 'Налаштування',
 	'SIGNATURE'					=> 'Підпис',
@@ -754,7 +759,6 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Введений код підтвердження занадто короткий.',
 	'TOO_SHORT_DATEFORMAT'			=> 'Введений формат дати занадто короткий.',
 	'TOO_SHORT_JABBER'				=> 'Ім\'я облікового запису Jabber занадто коротке.',
-	'TOO_SHORT_LOCATION'			=> 'Рядок «Звідки» занадто коротка.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'Введений пароль, занадто короткий.',
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Підтвердження пароля занадто короткий.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'Пароль занадто короткий.',
@@ -773,7 +777,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED'		=> 'Перенесена',
 	'TOPIC_REVIEW'		=> 'Огляд теми',
 	'TOPIC_TITLE'		=> 'Назва теми',
-	'TOPIC_UNAPPROVED'	=> 'Дана тема не була схвалена',
+	'TOPIC_UNAPPROVED'	=> 'Дана тема не була схвалена.',
+	'TOPIC_DELETED'		=> 'Дана тема була видалена.',
 	'TOTAL_ATTACHMENTS'	=> 'Вкладення',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d лог',
@@ -785,6 +790,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Всього %d приватних повідомлень',
 		3	=> 'Всього %d приватних повідомлень',
 	),
+	'TOPIC_POLL'		=> 'Дана тема містить опитування.',
 	'TOTAL_POSTS'		=> 'Всього повідомлень',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'Всього повідомлень: <strong>%d</strong>',
