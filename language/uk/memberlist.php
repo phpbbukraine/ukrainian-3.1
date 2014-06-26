@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'до',
 
 	'CC_EMAIL'				=> 'Вислати мені копію цього повідомлення.',
+	'CONTACT_USER'			=> 'Контакти',
+	'CONTACT_ADMIN'			=> 'Надіслати повідомлення адміністрації',
 
 	'DEST_LANG'				=> 'Мова',
 	'DEST_LANG_EXPLAIN'		=> 'Виберіть мову одержувача повідомлення (якщо доступний).',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Ви повинні ввести текст повідомлення для відправки.',
 	'EMPTY_MESSAGE_IM'		=> 'Ви повинні ввести текст повідомлення для відправлення.',
 	'EMPTY_NAME_EMAIL'		=> 'Ви повинні ввести справжнє ім\'я одержувача.',
+	'EMPTY_SENDER_EMAIL'	=> 'Ви повинні ввести правильну email адресу.',
+	'EMPTY_SENDER_NAME'		=> 'Ви повинні вказати ім\'я.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Ви повинні вказати тему повідомлення.',
 	'EQUAL_TO'				=> 'рівно',
 
@@ -99,6 +103,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'більше',
 
+	'NO_CONTACT_FORM'		=> 'Форма для зв\'язку з адміністрацією відключена.',
+	'NO_CONTACT_PAGE'		=> 'Сторінка для зв\'язку з адміністрацією відключена.',
 	'NO_EMAIL'				=> 'Вам не дозволено надсилати email цьому користувачеві.',
 	'NO_VIEW_USERS'			=> 'У вас немає доступу до списку користувачів.',
 
@@ -114,6 +120,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Вибрати відмічених',
 	'SELECT_SORT_METHOD'	=> 'Поле сортування',
+	'SENDER_EMAIL_ADDRESS'	=> 'Ваша email адреса',
+	'SENDER_NAME'			=> 'Ваше ім\'я',
 	'SEND_ICQ_MESSAGE'		=> 'Надіслати ICQ-повідомлення',
 	'SEND_IM'				=> 'Надіслати миттєве повідомлення',
 	'SEND_JABBER_MESSAGE'	=> 'Надіслати Jabber-повідомлення',
@@ -138,5 +146,10 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Користувачів на сторінці',
 
 	'VIEWING_PROFILE'		=> 'Профіль користувача %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Перегляд профілю Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'Перегляд профілю Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Перегляд профілю Twitter',
+	'VIEW_YOUTUBE_CHANNEL'  => 'Перегляд профілю YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Перегляд профілю Google+',
 
 ));

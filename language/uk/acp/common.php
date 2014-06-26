@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Користувачі',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Засоби зв\'язку',
 	'ACP_COOKIE_SETTINGS'		=> 'Налаштування cookies',
+	'ACP_CONTACT'				=> 'Сторінка для зв\'язку з адміністрацією',
+	'ACP_CONTACT_SETTINGS'		=> 'Налаштування сторінки для зв\'язку з адміністрацією',
 	'ACP_CRITICAL_LOGS'			=> 'Лог помилок',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Додаткові поля в профілі',
 
@@ -222,9 +224,19 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'Ви успішно вийшли з панелі адміністратора',
 
 	'BACK'					=> 'Назад',
+	
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Виводить список запланованих і незапланованих завдань планувальника (cron).',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Запускає всі заплановані завдання планувальника (cron).',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Ім\'я завдання для запуску',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Запустити оболонку.',
 
 	'COLOUR_SWATCH'			=> 'Колірна палітра',
 	'CONFIG_UPDATED'		=> 'Параметри успішно оновлені.',
+	'CRON_LOCK_ERROR'		=> 'Не вдалося отримати блокування планувальника (cron lock).',
+	'CRON_NO_SUCH_TASK'		=> 'Не вдалося знайти задачу планувальника «%s».',
+	'CRON_NO_TASK'			=> 'В даний момент немає завдань планувальника для запуску.',
+	'CRON_NO_TASKS'			=> 'Не вдалося знайти завдання планувальника.',
 
 	'DEACTIVATE'				=> 'Відключити',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Зазначений шлях «%s» не існує.',
@@ -233,7 +245,7 @@ $lang = array_merge($lang, array(
 	'DISABLE'					=> 'Відключити',
 	'DOWNLOAD'					=> 'Завантажити',
 	'DOWNLOAD_AS'				=> 'завантажити як',
-	'DOWNLOAD_STORE'			=> 'Скачати або зберегти на сервері',
+	'DOWNLOAD_STORE'			=> 'Завантажити або зберегти на сервері',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Ви можете безпосередньо завантажити файл або зберегти його на сервері в папці <samp>store/</samp>.',
 	'DOWNLOADS'          		=> 'Завантаження',
 
@@ -285,6 +297,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Нагадати',
 	'RESYNC'							=> 'Синхронізувати',
 
+	'RUNNING_TASK'			=> 'Виконується завдання: %s.',
 	'SELECT_ANONYMOUS'		=> 'Вибрати обліковий запис гостя',
 	'SELECT_OPTION'			=> 'Виберіть дію',
 
@@ -295,6 +308,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Показати всі дії',
 
+	'TASKS_NOT_READY'		=> 'Не заплановані завдання:',
+	'TASKS_READY'			=> 'Заплановані завдання:',
 	'TOTAL_SIZE'      		=> 'Загальний розмір',
 
 	'UCP'					=> 'Особистий розділ',
@@ -541,9 +556,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Схвалена тема</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Піднята тема</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Видалено повідомлення «%1$s», опубліковане користувачем </strong><br />» %2$s',
-	'LOG_DELETE_TOPIC'			=> '<strong>видалена тема «%1$s», створена користувачем </strong><br />» %2$s',
-	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Видалино посилання на перенесену тему</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>Видалено повідомлення «%1$s», створене користувачем «%2$s», з причини </strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Видалена тема «%1$s», створена користувачем «%2$s», з причини </strong><br />» %3$s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Видалено посилання на перенесену тему</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Скопійована тема</strong><br />» із форума %s',
 	'LOG_LOCK'					=> '<strong>Закрита тема</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Заблоковано повідомлення</strong><br />» %s',
@@ -552,14 +567,14 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Закрита скарга на приватне повідомлення</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Видалена скарга на приватне повідомлення</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Схвалення повідомлення</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Відхилення повідомлення «%1$s» автора «%3$s» з причини</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Редагування повідомлення в темі «%1$s», написаного автором</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Відхилення повідомлення «%1$s» автора «%3$s» з причини</strong><br />» %3$s',
+	'LOG_POST_EDITED'			=> '<strong>Редагування повідомлення в темі «%1$s», створеного користувачем «%2$s», з причини </strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Відновлено повідомлення</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закриття скарги</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Видалення скарги</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Відновлена ​​тема «%1$s» написана автором</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Видалено повідомлення «%1$s» автора</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Видалено тему «%1$s» написана автором</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Видалено повідомлення «%1$s» створеного користувачем «%2$s», з причини </strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Видалено тему «%1$s» нствореного користувачем «%2$s», з причини </strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Переміщені розділені повідомлення</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Розділені повідомлення</strong><br />» із %s',
 
