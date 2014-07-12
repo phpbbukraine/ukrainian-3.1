@@ -588,6 +588,7 @@ $lang = array_merge($lang, array(
 	'POSTED_ON_DATE'		=> '',
 	'POSTS'					=> 'Повідомлень',
 	'POSTS_UNAPPROVED'		=> 'Повідомлення, що вимагає схвалення:',
+	'POSTS_UNAPPROVED_FORUM'=> 'Принаймні одне повідомлення в цьому форумі очікує схвалення.',
 	'POST_BY_AUTHOR'		=> '',
 	'POST_BY_FOE'			=> 'Автором цього повідомлення є <strong>%1$s</strong>, що знаходиться у вашому чорному списку. %2$sПоказати це повідомлення%3$s.',
 	'POST_DISPLAY'			=> '%1$sПоказати це повідомлення%2$s.',
@@ -617,6 +618,8 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Приватні повідомлення',
 	'PRIVATE_MESSAGING'		=> 'Приватне повідомлення',
 	'PROFILE'				=> 'Особистий розділ',
+	
+	'QUICK_LINKS'			=> 'Посилання',
 
 	'RANK'						=> 'Звання',
 	'READING_FORUM'				=> 'Перегляд форуму «%s»',

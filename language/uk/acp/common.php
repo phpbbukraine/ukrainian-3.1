@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Візуальне підтвердження',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Встановлення розширень',
+	'ACP_CAT_CUSTOMISE'			=> 'Персоналізація',
 	'ACP_CAT_DATABASE'			=> 'База даних',
 	'ACP_CAT_DOT_MODS'			=> 'Налаштування розширень',
 	'ACP_CAT_FORUMS'			=> 'Форуми',
@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'завантажити як',
 	'DOWNLOAD_STORE'			=> 'Завантажити або зберегти на сервері',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Ви можете безпосередньо завантажити файл або зберегти його на сервері в папці <samp>store/</samp>.',
-	'DOWNLOADS'          		=> 'Завантаження',
+	'DOWNLOADS'					=> 'Завантаження',
 
 	'EDIT'					=> 'Змінити',
 	'ENABLE'				=> 'Включити',
@@ -310,7 +310,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'		=> 'Не заплановані завдання:',
 	'TASKS_READY'			=> 'Заплановані завдання:',
-	'TOTAL_SIZE'      		=> 'Загальний розмір',
+	'TOTAL_SIZE'			=> 'Загальний розмір',
 
 	'UCP'					=> 'Особистий розділ',
 	'USERNAMES_EXPLAIN'		=> 'Вводите кожне ім\'я на новому рядку.',

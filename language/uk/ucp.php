@@ -335,12 +335,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'У темі, яка знаходиться у вас у закладках, з\'явилися нові повідомлення',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Надійшов запит на вступ до групи, лідером якої Ви є',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Повідомлення або тема вимагають схвалення',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Ваші повідомлення/теми схвалені або відхилені модератором',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Ваші повідомлення/теми схвалені або відхилені модератором',
 	'NOTIFICATION_TYPE_PM'								=> 'Вам надіслано приватне повідомлення',
 	'NOTIFICATION_TYPE_POST'							=> 'У темі, на яку ви підписані, з\'явилися нові повідомлення',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Вас процитували в повідомленні',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Скарги на повідомлення',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'У форумі, на який ви підписані, з\'явилися нові теми',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'У форумі, на який ви підписані, з\'явилися нові теми',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Нещодавно зареєстрований користувач вимагає активації',
 	
 	'NOTIFY_METHOD'					=> 'Спосіб сповіщення',
@@ -367,6 +367,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Не обрано дію для повідомлення.',
 	'NO_AUTHOR'						=> 'Не вказаний автор повідомлення',
+	'NO_AVATAR'						=> 'Не вибраний аватар',
 	'NO_AVATAR_CATEGORY'			=> 'Ні',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'У вас немає доступу до видалення приватних повідомлень.',

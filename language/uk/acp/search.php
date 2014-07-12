@@ -60,7 +60,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Слова, які складаються не більш, ніж з даної кількості символів, будуть проіндексовані для пошуку. Змінити дане значення можна тільки шляхом зміни налаштувань сервера MySQL.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Механізм повнотекстового пошуку PostgreSQL може бути використаний тільки на СУБД PostgreSQL.',
-	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'Механізм повнотекстового пошуку PostgreSQL може бути використаний тільки з версією PostgreSQL 8.3 і вище.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Загальна кількість індексованих повідомлень',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'Версія PostgreSQL',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Профіль конфігурації повнотекстового пошуку:',
