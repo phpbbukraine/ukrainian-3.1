@@ -430,7 +430,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Неактивовані користувачі',
 
 	'WELCOME_PHPBB'			=> 'Ласкаво просимо в phpBB',
-	'WRITABLE_CONFIG'		=> 'Файл <samp>config.php</samp> в даний час доступний для запису. Наполегливо рекомендується змінити право доступу до цього файлу на 640 або принаймні на 644 (наприклад: <a href="http://uk.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Файл config.php в даний час доступний для запису. Наполегливо рекомендується змінити право доступу до цього файлу на 640 або принаймні на 644 (наприклад: <a href="http://uk.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -734,8 +734,8 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_DB'			=> '<strong>Додана тема в базу даних</strong><br />» %s',
 	'LOG_THEME_ADD_FS'			=> '<strong>Додана тема на сервер</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Видалена тема</strong><br />» %s',
-	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Змінена інформація про тему</strong><br />» %s',
-	'LOG_THEME_EDIT'			=> '<strong>Змінена тема <em>%1$s</em></strong><br />» Змінено клас <em>%2$s</em>',
+	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Змінена тема</strong><br />» %s',
+	'LOG_THEME_EDIT'			=> '<strong>Змінена тема <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Зміна теми оформлення стилю <em>%1$s</em></strong><br />» Змінений файл <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Експортована тема</strong><br />» %s',
 	// @deprecated 3.1
@@ -786,8 +786,8 @@ $lang = array_merge($lang, array(
 	'LOG_WARNING_DELETED'		=> '<strong>Видалено попередження у користувача</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1		=> '<strong>Видалено попередження користувача</strong><br />» %1$s',
-		2		=> '<strong>Видалено %2$s попередження користувача</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username',
-		3		=> '<strong>Видалено %2$s попереджень користувача</strong><br />» %1$s',
+		2		=> '<strong>Видалено %2$d попередження користувача</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username',
+		3		=> '<strong>Видалено %2$d попереджень користувача</strong><br />» %1$s',
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Видалені всі попередження у користувача</strong><br />» %s',
 
