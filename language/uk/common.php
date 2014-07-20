@@ -455,6 +455,7 @@ $lang = array_merge($lang, array(
 	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
@@ -462,41 +463,42 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...	
 	'NOTIFICATION_BOOKMARK'				=> array(
-		1	=> '<strong>Відповідь</strong> від %1$s в темі, що знаходиться у Вас в закладках:',
-		2	=> '<strong>Відповідь</strong> від %1$s в темі, що знаходиться у Вас в закладках:',
-		3	=> '<strong>Відповідь</strong> від %1$s в темі, що знаходиться у Вас в закладках:',
+		1	=> '<strong>Відповідь</strong> від користувача %1$s в темі, що знаходиться у Вас в закладках:',
+		2	=> '<strong>Відповідь</strong> від користувача %1$s в темі, що знаходиться у Вас в закладках:',
+		3	=> '<strong>Відповідь</strong> від користувача %1$s в темі, що знаходиться у Вас в закладках:',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Форум:</em> %1$s',
-	'NOTIFICATION_GROUP_REQUEST'    	=> '<strong>Запит</strong> від %1$s на вступ до групи %2$s.',
+	'NOTIFICATION_GROUP_REQUEST'    	=> '<strong>Запит</strong> від користувача %1$s на вступ до групи %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => '<strong>Схвалений запит</strong> на вступ до групи %1$s.',
-	'NOTIFICATION_PM'					=> '<strong>Приватне повідомлення</strong> від %1$s:',
+	'NOTIFICATION_PM'					=> '<strong>Приватне повідомлення</strong> від користувача %1$s:',
 	'NOTIFICATION_POST'					=> array(
-		1	=> '<strong>Відповідь</strong> від %1$s в темі:',
-		2	=> '<strong>Відповідь</strong> від %1$s в темі:',
-		3	=> '<strong>Відповідь</strong> від %1$s в темі:',
+		1	=> '<strong>Відповідь</strong> від користувача %1$s в темі:',
+		2	=> '<strong>Відповідь</strong> від користувача %1$s в темі:',
+		3	=> '<strong>Відповідь</strong> від користувача %1$s в темі:',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Повідомлення схвалено</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Повідомлення відхилено</strong>:',
-	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Очікує схвалення</strong> повідомлення від %1$s:',
+	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Очікує схвалення</strong> повідомлення від користувача %1$s:',
 	'NOTIFICATION_QUOTE'				=> array(
-		1	=> '<strong>Цитата</strong> від %1$s в повідомленні:',
-		2	=> '<strong>Цитата</strong> від %1$s в повідомленні:',
-		3	=> '<strong>Цитата</strong> від %1$s в повідомленні:',
+		1	=> '<strong>Цитата</strong> від користувача %1$s в повідомленні:',
+		2	=> '<strong>Цитата</strong> від користувача %1$s в повідомленні:',
+		3	=> '<strong>Цитата</strong> від користувача %1$s в повідомленні:',
 	),
 	'NOTIFICATION_REFERENCE'			=> '«%1$s»',
 	'NOTIFICATION_REASON'				=> '<em>Причина:</em> %1$s.',
-	'NOTIFICATION_REPORT_PM'			=> '<strong>Скарга на приватне повідомлення</strong> від %1$s:',
-	'NOTIFICATION_REPORT_POST'			=> '<strong>Скарга на повідомлення</strong> від %1$s:',
+	'NOTIFICATION_REPORT_PM'			=> '<strong>Скарга на приватне повідомлення</strong> від користувача %1$s:',
+	'NOTIFICATION_REPORT_POST'			=> '<strong>Скарга на повідомлення</strong> від користувача %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Скарга закрита</strong> користувачем %1$s з причини:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Нова тема</strong> від %1$s:',
 	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Тема схвалена</strong>:',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Тема відхилена</strong>:',
-	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Очікує схвалення</strong> тема від %1$s:',
+	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Очікує схвалення</strong> тема створена користувача %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип повідомлення «%s» відсутній у файловій системі.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Очікує схвалення</strong> новий користувач: «%1$s»',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'інших',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		1		=> 'ще %d користувач',
+		1		=> 'ще %d користувача',
 		2		=> '%d інших',
 		3		=> '%d інших',
 	),

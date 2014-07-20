@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 			<li>Завантажте нові файли</li>
 			<li>Увімкніть розширення</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Повне видалення розширення.',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Повне видалення розширення',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Вимкніть розширення</li>
 			<li>Видаліть дані розширення</li>
