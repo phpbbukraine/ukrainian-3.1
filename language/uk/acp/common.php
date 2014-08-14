@@ -224,12 +224,6 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'Ви успішно вийшли з панелі адміністратора',
 
 	'BACK'					=> 'Назад',
-	
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Виводить список запланованих і незапланованих завдань планувальника (cron).',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Запускає всі заплановані завдання планувальника (cron).',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Ім\'я завдання для запуску',
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Запустити оболонку.',
 
 	'COLOUR_SWATCH'			=> 'Колірна палітра',
 	'CONFIG_UPDATED'		=> 'Параметри успішно оновлені.',
